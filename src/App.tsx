@@ -1,47 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-
-type ChapterSection = {
-  title: string
-  full: string
-  compact?: string
-}
-
-type Chapter = {
-  number: number
-  name: string
-  prologue: ChapterSection
-  epilogue: ChapterSection
-  reinforcements: ChapterSection[]
-}
-
-const buildChapters = (): Chapter[] =>
-  Array.from({ length: 25 }, (_, i) => {
-    const chapter = i + 1
-    const adventureHook = `Chapter ${chapter} finds the party following rumors of a hidden vault beneath the Red Dragon Inn, where embers from an ancient wyrm still glow.`
-    const aftermath = `When the last torch dims in Chapter ${chapter}, the inn remembers brave boasts, singed maps, and the promise of new legends.`
-
-    return {
-      number: chapter,
-      name: `Chapter ${chapter}`,
-      prologue: {
-        title: 'Prologue',
-        full: `${adventureHook} The road is slick with rain, and the scent of smoke clings to every tale the patrons whisper.`,
-        compact: `${adventureHook} The trail is warm and perilous.`,
-      },
-      epilogue: {
-        title: 'Epilogue',
-        full: `${aftermath} The heroes share battered mugs, counting scars while the innkeep banks the hearth for dawn.`,
-        compact: `${aftermath} A quiet cheer rises before dawn.`,
-      },
-      reinforcements: Array.from({ length: 2 }, (_, idx) => ({
-        title: `Reinforcements ${idx}`,
-        full: `A seasoned ally rides in under crimson banners, answering the Chapter ${chapter} call. They bring supplies, sly advice, and a promise to hold the line when the odds grow steep.`,
-      })),
-    }
-  })
-
-const chapters = buildChapters()
+import { chapters, type ChapterSection } from './data/chapters'
 
 const getSectionText = (section: ChapterSection, compact: boolean) =>
   compact && section.compact ? section.compact : section.full
@@ -92,14 +51,12 @@ function App() {
                 type="button"
                 aria-pressed={compact}
                 onClick={() => setCompact((prev) => !prev)}
-                className={`relative inline-flex h-6 w-11 items-center rounded-full transition ${
-                  compact ? 'bg-amber-500' : 'bg-slate-700'
-                }`}
+                className={`relative inline-flex h-6 w-11 items-center rounded-full transition ${compact ? 'bg-amber-500' : 'bg-slate-700'
+                  }`}
               >
                 <span
-                  className={`inline-block h-5 w-5 transform rounded-full bg-white shadow transition ${
-                    compact ? 'translate-x-5' : 'translate-x-1'
-                  }`}
+                  className={`inline-block h-5 w-5 transform rounded-full bg-white shadow transition ${compact ? 'translate-x-5' : 'translate-x-1'
+                    }`}
                 />
               </button>
             </label>
