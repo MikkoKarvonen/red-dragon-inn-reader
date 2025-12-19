@@ -1,9 +1,18 @@
 import { useState } from 'react'
 import './App.css'
 import { chapters, type ChapterSection } from './data/chapters'
+import { PlayButton } from './components/PlayButton'
 
 const getSectionText = (section: ChapterSection, compact: boolean) =>
   compact && section.compact ? section.compact : section.full
+
+const getAudioPath = (chapterNumber: number, sectionType: 'prologue' | 'epilogue' | 'reinforcements', index?: number): string => {
+  const chapterFolder = `chapter-${chapterNumber}`
+  if (sectionType === 'reinforcements' && index !== undefined) {
+    return `${chapterFolder}/reinforcements-${index}.mp3`
+  }
+  return `${chapterFolder}/${sectionType}.mp3`
+}
 
 function App() {
   const [selectedChapter, setSelectedChapter] = useState(chapters[0]?.number ?? 1)
@@ -71,7 +80,10 @@ function App() {
             </div>
             <div className="grid gap-6">
               <article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
-                <h3 className="text-lg font-semibold text-amber-300">{chapter.prologue.title}</h3>
+                <div className="flex items-start justify-between gap-4 mb-2">
+                  <h3 className="text-lg font-semibold text-amber-300">{chapter.prologue.title}</h3>
+                  <PlayButton audioSrc={getAudioPath(chapter.number, 'prologue')} />
+                </div>
                 <p className="mt-2 text-slate-200 leading-relaxed whitespace-pre-wrap">
                   {getSectionText(chapter.prologue, compact)}
                 </p>
@@ -83,12 +95,15 @@ function App() {
                   Reinforcements
                 </div>
                 <div className="grid gap-4 md:grid-cols-2">
-                  {chapter.reinforcements.map((section) => (
+                  {chapter.reinforcements.map((section, index) => (
                     <article
                       key={section.title}
                       className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg"
                     >
-                      <h4 className="text-base font-semibold text-slate-100">{section.title}</h4>
+                      <div className="flex items-start justify-between gap-4 mb-2">
+                        <h4 className="text-base font-semibold text-slate-100">{section.title}</h4>
+                        <PlayButton audioSrc={getAudioPath(chapter.number, 'reinforcements', index)} />
+                      </div>
                       <p className="mt-2 text-slate-300 leading-relaxed">{section.full}</p>
                     </article>
                   ))}
@@ -96,7 +111,10 @@ function App() {
               </div>
 
               <article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
-                <h3 className="text-lg font-semibold text-amber-300">{chapter.epilogue.title}</h3>
+                <div className="flex items-start justify-between gap-4 mb-2">
+                  <h3 className="text-lg font-semibold text-amber-300">{chapter.epilogue.title}</h3>
+                  <PlayButton audioSrc={getAudioPath(chapter.number, 'epilogue')} />
+                </div>
                 <p className="mt-2 text-slate-200 leading-relaxed whitespace-pre-wrap">
                   {getSectionText(chapter.epilogue, compact)}
                 </p>
