@@ -18,8 +18,38 @@ export const chapters: Chapter[] = [
     name: 'Chapter 1',
     prologue: {
       title: 'Prologue',
-      full: 'Chapter 1 prologue: Lorem ipsum dolor sit amet, opening the tale with hushed whispers in the inn.',
-      compact: 'Chapter 1 prologue compact: Lorem ipsum dolor sit amet.',
+      full: `It's late at night at the Red Dragon Inn. The Wench calls for last orders as many of the guests start heading up to their rooms or out into the streets. In a small office upstairs, Warthorn Redbeard, the dwarven proprietor, gets an early start on counting the day's take, admiring the glint of gold in the candlelight.
+  Your band of famed adventurers remains at your table, as you often do at this time of night. Some of you are slumped over in your chairs, sent temporarily to oblivion by one too many drinks or dances with Gog. Others, like Wrench and Wizgille, who burned through their small stashes of coin hours ago, are paying off their tabs by bringing bottles of wine and ale up from the cellar. Fiona, Zot, and Gerki are all still awake, more or less, playing what looks to be the final round of gambling of the night.
+  "You can't win, you know," says Gerki, plucking a gold piece off of his mountainous hoard and throwing it into the ante. "I raise.
+  Pooky sticks his head out of Zot's sleeve and favors Gerki with an angry expression as the wizard scans his cards. Gerki grins back, trying not to break into a sweat as the tips of the rabbit's innumerable teeth poke out past his fuzzy lips.
+  "Well," says Zot. "It seems like the only thing I can do is..." then he points dramatically over Gerki's shoulder. "What's going on over... "Nothing's going on over there, over there," says Gerki, leaning back in his chair. "I'm not falling for it."
+  And yet, despite not falling for it, Gerki does feet running up from behind. Since he knows hear the pitter-patter of both booted and bare better than to let random people walk, or run, up behind him, Gerki turns around just as Wizgille and Wrench race breathlessly up to the table. By the time he turns back around, Fiona has leaned across the table and taken a peek at the five dragon cards in his hand.
+  "Seriously, Gerki?" she says, raising an eyebrow. "There's three dragons to a deck. It's like you're not even trying anymore.
+  "Well," says Gerki. "I'm actually playing a little-known rules variant where..."
+  Wrench slams down his toolbox in the middle of the game, scattering the ante.
+  "We need help!" he says, luminous eyes darting. "We were trying to help Warthorn out, but I think we made... a mistake!"
+  "What," said Fiona, "you break some bottles or something?"
+  "Yes, says Wrench, before shaking his head. "But that's not the biggest problem.
+  "What he's trying to say," interrupts Wizgille, "is that something's wrong with our new Danger Room!"
+  You feel the entire inn shudder, as if struck by a catapult stone, and a gout of black smoke erupts from the cellar entrance. Glasses shimmy off the tables and shatter on the flagstones. The Wench, annoyed but graceful, negotiates the minor quake without spilling a drop from her fully-laden tray.
+  "What the heck was that?!" shouts Fiona. "And what the heck is a Danger Room?"
+  "We were working down in the cellar, yeah?" says Wrench. "Trying to build this artificed thing with combat constructs and wing-a-lingers and spinblades and stuff, so that novice adventurers could face off against them and hone their fighting skills."
+  "We thought it would be a good way to attract the type of clientele that Warthorn is always looking for," adds Wizgille. "Mostly the reason we've been on bottle duty these past couple of months is so we have better access to the cellar, so that we can finish it and surprise him!"
+  Another tremor rocks the inn. A strange, rhythmic chiming sound begins to issue from the cellar.
+  "You know," says Gerki, "I'm pretty sure he's going to be surprised."
+  "Yeah, we know." Wrench looks over his shoulder. "We were almost finished, but there was a short in the system, and now the Danger Room is powering up and we can't turn it off!"
+  Zot purses his lips. "How long do we have until it's fully powered up?"
+  Something in the basement falls over, crashes, and explodes. Amidst the din, you hear the unmistakable sounds of unseen constructs whirring to life.
+  Wizgille looks down at the floor. "According to my calculations, about ten seconds ago."
+  Pooky is already across the room and down the cellar stairs in a flash. Zot stands up, arcane power flowing from his hands. "Make sure whatever's down there doesn't come up here. We'll try to get the rest of them sober... or at least awake! We'll be right behind you!"`,
+      compact: `It's late at the Red Dragon Inn, and the adventurers are wrapping up a round of gambling when Wrench and Wizgille burst in, breathless.
+  "We need help!" Wrench exclaims, slamming down his toolbox. "Something's wrong with our new Danger Room!"
+  The entire inn shudders, black smoke billows from the cellar entrance, and glasses shatter.
+  Fiona asks, "What the heck is a Danger Room?"
+  Wrench explains that they were secretly building an artificed training area in the cellar with constructs to attract new clientele. "We were almost finished, but there was a short in the system, and now the Danger Room is powering up and we can't turn it off!"
+  Another tremor rocks the inn, followed by crashing and the unmistakable whirring of constructs coming to life.
+  Wizgille looks down. "According to my calculations, about ten seconds ago."
+  Pooky flashes down the stairs instantly. Zot stands up, arcane energy ready. "Make sure whatever's down there doesn't come up here. We'll be right behind you!"`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -27,8 +57,9 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 1 epilogue compact: Embers fade and silence settles.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 1 reinforcements 0: A tired ally arrives with spare gear.' },
-      { title: 'Reinforcements 1', full: 'Chapter 1 reinforcements 1: Another friend follows, ready to stand guard.' },
+      { title: 'Deploy', full: 'The inventors Wizgille and Wrench have enthusiastically filled the storeroom with pointy objects and automatons to wield them. Guess it’s time for a good ol’ fashioned melee!' },
+      { title: 'Reinforcements 1', full: 'Warthorn is not going to be a fan of the creative “reorganization” of all his kegs and barrels of ale, but a far more pressing concern is the iron rods that the Gizmoblins are launching at you!' },
+      { title: 'Reinforcements 2', full: 'Okay, well that hulking monstrosity actually looks pretty impressive. In the far corner of the room you spy an arcano-mechanical object buzzing away and throwing off arcs of electricity. Looks like you’ve finally found the off switch!' },
     ],
   },
   {
@@ -36,17 +67,35 @@ export const chapters: Chapter[] = [
     name: 'Chapter 2',
     prologue: {
       title: 'Prologue',
-      full: 'Chapter 2 prologue: Crates are stacked and rumors pile higher than the ale.',
-      compact: 'Chapter 2 prologue compact: Crates and rumors stack.',
+      full: `Greyport is built on top of an ancient Undercity, parts of which are deserted and parts of which are quite lively, occupied, and have a complex culture all their own. Fiona and Gerki, who once lived in the Undercity, know that several basements in Greyport have connecting passageways and stairwells which allow the folk from the surface to journey down into the Undercity, and vice versa.
+  Thanks to the incursion of these awful rock- eating slimes, one more building in Greyport now has a basement with Undercity access…
+  Freshly equipped, your dauntless band of adventurers drives the hideous oozes out of the cellar of the Red Dragon Inn and back down the sinuous, slimy tunnel that the creatures have bored into the rock. You light your torches (or, if you’re a classy, Collegium-trained wizard who can’t be bothered with such common lighting implements, cast a light spell), and make your way down the ale-soaked incline into the depths below.
+  Your lights do a fair job of illuminating the area. The cramped space smells of wet earth and ale as the broken barrels continue belching out their contents onto the sloped floor. It looks like there may have been tunnels and passages down here that have since fallen in due to who knows what.
+  However, it looks like the most recent cave-in is on the far side of the room. The wall appears to be made from loose rubble. A good whack would probably blow a hole in the wall big enough for even Gog to squeeze through.`,
+      compact: `Greyport sits atop an ancient, active Undercity. Thanks to recent rock-eating slime trouble, the Red Dragon Inn's cellar now has a new passageway down.
+  Your band, freshly equipped, drives the oozes out of the cellar and down the slimy tunnel they bored. Torches (or a classy Light spell) illuminate the cramped, ale-soaked space.
+  The tunnel slopes down into a room smelling of wet earth and ale. Most original passages are caved in, but the most recent collapse—a wall of loose rubble—looks like it could easily be knocked open to reveal more of the Undercity.`,
     },
     epilogue: {
       title: 'Epilogue',
-      full: 'Chapter 2 epilogue: Footsteps fade and the ledger closes with a sigh.',
+      full: `The great slime beast is dead, felled at last by your swords and sorcery (and maybe a few tons of stone). Once it releases its final squelch, it doesn’t take much effort to search the rest of the cavern and clear out all of its remaining spawn. You and your companions are pleased with your victory, but are also very, very interested in getting back to the Red Dragon Inn for a scalding hot bath and a change of clothes.
+  "I don’t know about you," says Deirdre, picking at her slime-covered robes, "but I have half a mind to burn these."
+  Zot, on the other hand, seems not to notice Deirdre’s complaints or the sorry state of his own robes. He stands both deep in thought and deep in a puddle of congealing slime innards, stroking his grey beard with his hand and staring up at the spot where, until recently, the giant slime monster had been. Pooky, who has climbed up on top of Zot’s silver skull cap, sniffs at the air, an irritated expression on his bunny face.
+  "Zot?"
+  "You’re both familiar with the Undercity," he says to Fiona and Gerki at last. "Get a lot of slime down here, do you?"
+  "Sure, some," says Gerki.
+  "Usually in the dark crawlspaces and abandoned parts," adds Fiona. "They chew on cobwebs and dead things. You know, filth and stuff."
+  "Hmm," mumbles the wizard, clearly not put at ease by these replies.
+  "Don't worry, Zot," says Fiona, sheathing her sword. "They're just monsters, right? We've beaten monsters before, and we'll beat them again. We're kind of really good at this!"
+  "Maybe..." Zot turns and wades out of the puddle of slime guts with as much dignity as he can muster. "I will leave you all to your baths and fresh linens, my friends. I, for one, need to pay a visit to the Collegium. I have a bad feeling that there's more going on here than we might think."
+  "You mean it's not a one-off, completely random slime infestation?" asks Gerki, "That's just great."`,
       compact: 'Chapter 2 epilogue compact: Ledger closes softly.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 2 reinforcements 0: A scout brings maps stained with coffee.' },
-      { title: 'Reinforcements 1', full: 'Chapter 2 reinforcements 1: A courier drops off bandages and bread.' },
+      { title: 'Deploy', full: 'As you cast about with your light, you hear the all-too-familiar sound of Gizmoblins whirring to life, their flickering eye lamps pinpointing the recesses of the chamber. Oh yeah, and the floor is also moving, because the slimes are attacking...' },
+      { title: 'Reinforcements 1', full: 'As the wall of loose rock collapses, the room shudders, dislodging yet more sections of wall, and the oozing monsters hiding behind them.' },
+      { title: 'Reinforcements 2', full: 'A long, narrow chamber that is steeper and noticeably more humid opens before you. There’s an ominous loud sound echoing from further into the darkness that can only be described as “sticky”' },
+      { title: 'Reinforcements 3', full: 'Upon revealing the room, you encounter a very unwelcome sight - a truly massive slime monster with smaller ones budding off it! The monster jiggles to life upon your entrance, and dust and gravel rain down from above. The ceiling appears to be barely supported by the rotting pillars around the room.' },
     ],
   },
   {
@@ -63,8 +112,7 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 3 epilogue compact: Music lingers in the rain.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 3 reinforcements 0: A fiddler offers sharp eyes and sharper strings.' },
-      { title: 'Reinforcements 1', full: 'Chapter 3 reinforcements 1: A brewer swaps ale for watch duty.' },
+      { title: 'Deploy', full: 'You’ve abandoned your meals but it appears your enemy has not. The crab-like hulks are spraying living muck this way and that while an undulating mass of slime eats its way through the Grey Market, melting stalls and eroding the rock!' },
     ],
   },
   {
@@ -78,11 +126,17 @@ export const chapters: Chapter[] = [
     epilogue: {
       title: 'Epilogue',
       full: 'Chapter 4 epilogue: The door is sealed again and flour dust settles.',
-      compact: 'Chapter 4 epilogue compact: Door sealed; dust settles.',
+      compact: `With a rare cry of fury, the pious Deirdre smashes the Crab King's conch, sending the remaining slimes into a frantic retreat. As the party celebrates their victory, a cadre of priests and paladins rushes in, horrified to learn how close the Great Temple came to collapse.
+  "Had you not been here to stem the tide," the High Priest of Korash remarks, "we would have been too late."
+  Gerki immediately bursts into a fit of giggles at the accidental pun, earning confused stares from the somber clergy. After he regains his composure, the priests offer their curative magics and an audience with Grand Cleric Ohava for a proper "earthly" reward.
+  "Sounds good to me," Gerki grins. "Lead the way, your holinesses!"`,
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 4 reinforcements 0: A cook arrives with a heavy rolling pin.' },
-      { title: 'Reinforcements 1', full: 'Chapter 4 reinforcements 1: A porter shoulders sacks to block the hall.' },
+      { title: 'Deploy', full: 'The laughing crab king disappears into the cavern. You are confronted by massive slimes and snapping pincers standing between you and the eroding pillars.' },
+      { title: 'Reinforcements Upper Passage', full: 'The acrid smell of acid and slime hits your nose hard when this passage is opened. And the floor is moving. That’s probably not good either' },
+      { title: 'Reinforcements Lower Passage', full: 'As the gravel crumbles, you immediately duck under a volley of muck fired from the crab men guarding this passage’s acid spewing plant... animal... things?' },
+      { title: 'Reinforcements Back Passage', full: 'This chamber is massive, with the worst infestation of slime-spitting spawn coating the walls.' },
+      { title: 'The Crab King', full: 'The Crab King howls with rage as the last of the acid spitters is crushed. He blows his conch once more, summoning the deadly remnants of his horde to his side.' },
     ],
   },
   {
@@ -99,8 +153,11 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 5 epilogue compact: Key stored; lock unknown.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 5 reinforcements 0: A locksmith offers quiet assistance.' },
-      { title: 'Reinforcements 1', full: 'Chapter 5 reinforcements 1: A lookout keeps watch over the counter.' },
+      { title: 'Deploy', full: 'The laughing crab king disappears into the cavern. You are confronted by massive slimes and snapping pincers standing between you and the eroding pillars.' },
+      { title: 'Reinforcements Upper Passage', full: 'The acrid smell of acid and slime hits your nose hard when this passage is opened. And the floor is moving. That’s probably not good either' },
+      { title: 'Reinforcements Lower Passage', full: 'As the gravel crumbles, you immediately duck under a volley of muck fired from the crab men guarding this passage’s acid spewing plant... animal... things?' },
+      { title: 'Reinforcements Back Passage', full: 'This chamber is massive, with the worst infestation of slime-spitting spawn coating the walls.' },
+      { title: 'The Crab King', full: 'The Crab King howls with rage as the last of the acid spitters is crushed. He blows his conch once more, summoning the deadly remnants of his horde to his side.' },
     ],
   },
   {

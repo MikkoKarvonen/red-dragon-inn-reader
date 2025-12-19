@@ -72,7 +72,7 @@ function App() {
             <div className="grid gap-6">
               <article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
                 <h3 className="text-lg font-semibold text-amber-300">{chapter.prologue.title}</h3>
-                <p className="mt-2 text-slate-200 leading-relaxed">
+                <p className="mt-2 text-slate-200 leading-relaxed whitespace-pre-wrap">
                   {getSectionText(chapter.prologue, compact)}
                 </p>
               </article>
@@ -97,7 +97,7 @@ function App() {
 
               <article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
                 <h3 className="text-lg font-semibold text-amber-300">{chapter.epilogue.title}</h3>
-                <p className="mt-2 text-slate-200 leading-relaxed">
+                <p className="mt-2 text-slate-200 leading-relaxed whitespace-pre-wrap">
                   {getSectionText(chapter.epilogue, compact)}
                 </p>
               </article>
