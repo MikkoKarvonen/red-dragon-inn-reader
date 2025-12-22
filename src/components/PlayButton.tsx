@@ -29,7 +29,7 @@ export function PlayButton({ audioSrc, playbackRate = 1, className = '' }: PlayB
             <button
                 type="button"
                 disabled
-                className={`inline-flex items-center justify-center rounded-lg px-3 py-1.5 text-xs font-medium text-red-400 bg-red-900/20 border border-red-800/50 ${className}`}
+                className={`inline-flex items-center justify-center rounded-lg px-3 py-1.5 text-xs font-semibold text-red-300 bg-red-900/30 border-2 border-red-600/50 ${className}`}
                 title="Audio file not found"
             >
                 <svg
@@ -55,9 +55,9 @@ export function PlayButton({ audioSrc, playbackRate = 1, className = '' }: PlayB
             type="button"
             onClick={handleClick}
             disabled={!audioPath || isLoading}
-            className={`inline-flex items-center justify-center rounded-lg px-3 py-1.5 text-xs font-medium transition-colors ${isPlaying
-                ? 'bg-amber-500 text-white hover:bg-amber-600'
-                : 'bg-slate-800 text-amber-300 hover:bg-slate-700 border border-slate-700'
+            className={`inline-flex items-center justify-center rounded-lg px-3 py-1.5 text-xs font-semibold transition-all ${isPlaying
+                ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white hover:from-orange-600 hover:to-amber-600 border-2 border-orange-400/50 shadow-lg shadow-orange-500/30'
+                : 'bg-slate-800/80 text-purple-300 hover:bg-slate-700/80 border-2 border-purple-500/50 hover:border-purple-400/70'
                 } ${!audioPath || isLoading ? 'opacity-50 cursor-not-allowed' : ''} ${className}`}
             title={isPlaying ? 'Pause audio' : 'Play audio'}
         >
