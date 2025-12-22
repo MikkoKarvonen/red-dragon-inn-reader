@@ -5,6 +5,8 @@ import { PlayButton } from './components/PlayButton'
 import { SectionCard } from './components/SectionCard'
 import { getAudioPath } from './utils/audio'
 
+const playbackSpeeds = [1, 1.25, 1.5, 1.75, 2]
+
 function App() {
   const [selectedChapter, setSelectedChapter] = useState(chapters[0]?.number ?? 1)
   const [compact, setCompact] = useState(false)
@@ -58,11 +60,11 @@ function App() {
                   value={playbackSpeed}
                   onChange={(event) => setPlaybackSpeed(Number(event.target.value))}
                 >
-                  <option value={1} className="bg-slate-900">1x</option>
-                  <option value={1.25} className="bg-slate-900">1.25x</option>
-                  <option value={1.5} className="bg-slate-900">1.5x</option>
-                  <option value={1.75} className="bg-slate-900">1.75x</option>
-                  <option value={2} className="bg-slate-900">2x</option>
+                  {playbackSpeeds.map((speed) => (
+                    <option key={speed} value={speed} className="bg-slate-900">
+                      {speed}x
+                    </option>
+                  ))}
                 </select>
               </div>
 
