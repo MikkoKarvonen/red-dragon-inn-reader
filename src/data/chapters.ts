@@ -21,9 +21,9 @@ export const chapters: Chapter[] = [
       title: 'Prologue',
       full: `It's late at night at the Red Dragon Inn. The Wench calls for last orders as many of the guests start heading up to their rooms or out into the streets. In a small office upstairs, Warthorn Redbeard, the dwarven proprietor, gets an early start on counting the day's take, admiring the glint of gold in the candlelight.
   Your band of famed adventurers remains at your table, as you often do at this time of night. Some of you are slumped over in your chairs, sent temporarily to oblivion by one too many drinks or dances with Gog. Others, like Wrench and Wizgille, who burned through their small stashes of coin hours ago, are paying off their tabs by bringing bottles of wine and ale up from the cellar. Fiona, Zot, and Gerki are all still awake, more or less, playing what looks to be the final round of gambling of the night.
-  "You can't win, you know," says Gerki, plucking a gold piece off of his mountainous hoard and throwing it into the ante. "I raise.
+  "You can't win, you know," says Gerki, plucking a gold piece off of his mountainous hoard and throwing it into the ante. "I raise."
   Pooky sticks his head out of Zot's sleeve and favors Gerki with an angry expression as the wizard scans his cards. Gerki grins back, trying not to break into a sweat as the tips of the rabbit's innumerable teeth poke out past his fuzzy lips.
-  "Well," says Zot. "It seems like the only thing I can do is..." then he points dramatically over Gerki's shoulder. "What's going on over...
+  "Well," says Zot. "It seems like the only thing I can do is..." then he points dramatically over Gerki's shoulder. "What's going on over..."
   "Nothing's going on over there, over there," says Gerki, leaning back in his chair. "I'm not falling for it."
   And yet, despite not falling for it, Gerki does feet running up from behind. Since he knows hear the pitter-patter of both booted and bare better than to let random people walk, or run, up behind him, Gerki turns around just as Wizgille and Wrench race breathlessly up to the table. By the time he turns back around, Fiona has leaned across the table and taken a peek at the five dragon cards in his hand.
   "Seriously, Gerki?" she says, raising an eyebrow. "There's three dragons to a deck. It's like you're not even trying anymore.
