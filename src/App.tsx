@@ -158,9 +158,30 @@ function App() {
           </div>
         </section>
 
-        <footer className="text-xs text-purple-300/70 text-center italic">
-          Compact mode affects only Prologue and Epilogue. Reinforcements remain full-length to
-          capture tactical details.
+        <footer className="text-xs text-purple-300/70 text-center space-y-3">
+          <p className="italic">
+            Compact mode affects only Prologue and Epilogue. Reinforcements remain full-length to
+            capture tactical details.
+          </p>
+          <div className="flex items-center justify-center gap-4 flex-wrap">
+            <a
+              href="https://slugfestgames.com/tales-from-the-rdi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-300 hover:text-orange-400 transition-colors underline decoration-purple-500/50 hover:decoration-orange-500"
+            >
+              SlugFest Games
+            </a>
+            <span className="text-purple-500/50">•</span>
+            <a
+              href="https://github.com/MikkoKarvonen/red-dragon-inn-reader"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-300 hover:text-orange-400 transition-colors underline decoration-purple-500/50 hover:decoration-orange-500"
+            >
+              GitHub Repository
+            </a>
+          </div>
         </footer>
       </div>
     </div>
