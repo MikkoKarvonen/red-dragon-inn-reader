@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="dragonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#991b1b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Dragon body -->
+  <ellipse cx="50" cy="60" rx="25" ry="20" fill="url(#dragonGradient)" />
+  <!-- Dragon head -->
+  <ellipse cx="30" cy="45" rx="15" ry="12" fill="url(#dragonGradient)" />
+  <!-- Dragon snout -->
+  <ellipse cx="20" cy="45" rx="8" ry="6" fill="url(#dragonGradient)" />
+  <!-- Dragon eye -->
+  <circle cx="26" cy="42" r="3" fill="#fbbf24" />
+  <circle cx="26" cy="42" r="1.5" fill="#000" />
+  <!-- Dragon wing -->
+  <path d="M 45 50 Q 60 35 65 50 Q 60 55 45 50" fill="url(#dragonGradient)" opacity="0.8" />
+  <!-- Dragon tail -->
+  <path d="M 75 60 Q 85 50 90 60 Q 85 70 75 60" fill="url(#dragonGradient)" />
+  <!-- Dragon spikes -->
+  <path d="M 50 40 L 52 30 L 54 40" fill="#991b1b" />
+  <path d="M 60 45 L 62 35 L 64 45" fill="#991b1b" />
+</svg>
+
