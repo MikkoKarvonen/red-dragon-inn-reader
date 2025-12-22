@@ -84,7 +84,10 @@ export const chapters: Chapter[] = [
   “No,” says Wizgille, pulling her goggles down over her eyes. “No it’s not.”
   “Right then. We’re going to have to force these slimes back into the hole before they eat the Red Dragon Inn, then we’ll need to go upstairs and get our other equipment.” Zot pauses to pat Warthorn reassuringly on the shoulder. “Don’t worry, my friend. We won’t let them destroy your livelihood.”
   “Thanks,” says Warthorn, looking on in stunned disbelief. “Much appreciated.”`,
-      compact: 'Chapter 1 epilogue compact: Embers fade and silence settles.',
+      compact: `The last construct sparks out with a final "Battle... not... found..." error, leaving the cellar a wreck of gears and ale. Warthorn arrives, red-faced and furious at his new "mechanical death trap" of a basement, while Wrench and Wizgille weakly defend their "surprise" alpha test.
+  The argument is cut short by a bubbling hiss as a large section of the floor collapses into a thundering void. From the darkness, a carpet of multi-colored, fizzing slimes swarms into the room, devouring barrels and broken robots alike.
+  "I assume," Zot says, watching the oozes advance, "this is not part of the protocol?"
+  "No," Wizgille admits, snapping her goggles on. The party readies their gear, determined to save the inn from being eaten.`,
     },
     reinforcements: [
       { title: 'Deploy', full: 'The inventors Wizgille and Wrench have enthusiastically filled the storeroom with pointy objects and automatons to wield them. Guess it’s time for a good ol’ fashioned melee!' },
@@ -119,7 +122,10 @@ export const chapters: Chapter[] = [
   "Don't worry, Zot," says Fiona, sheathing her sword. "They're just monsters, right? We've beaten monsters before, and we'll beat them again. We're kind of really good at this!"
   "Maybe..." Zot turns and wades out of the puddle of slime guts with as much dignity as he can muster. "I will leave you all to your baths and fresh linens, my friends. I, for one, need to pay a visit to the Collegium. I have a bad feeling that there's more going on here than we might think."
   "You mean it's not a one-off, completely random slime infestation?" asks Gerki, "That's just great."`,
-      compact: 'Chapter 2 epilogue compact: Ledger closes softly.',
+      compact: `The giant slime is dead, leaving the party covered in gunk and Deirdre ready to burn her robes. While the others dream of hot baths, Zot stands knee-deep in ooze, troubled.
+  "Get a lot of slime down here?" he asks Fiona and Gerki. They note that while slimes are common in the Undercity's dark corners, this massive infestation is unusual.
+  "I have a bad feeling," Zot mutters, wading out of the slime with grim dignity. "I’m heading to the Collegium. I don't think this was random."
+  "Great," Gerki sighs. "Just great."`,
     },
     reinforcements: [
       { title: 'Deploy', full: 'As you cast about with your light, you hear the all-too-familiar sound of Gizmoblins whirring to life, their flickering eye lamps pinpointing the recesses of the chamber. Oh yeah, and the floor is also moving, because the slimes are attacking...' },
@@ -159,7 +165,11 @@ export const chapters: Chapter[] = [
   You lose sight of the giant crab man as his smaller bretheren rush into the market, snapping at the fleeing citizens and driving them back with their arm cannons belching putrid muck. The citizens shriek as the offspring of the deadly oceanic slime bubble up from the depths of newly-formed fissures, attempting to ensnare the unfortunate Undercitizens in their rubbery embraces.
   Fiona draws her blade. “We’ve got to help these people! Let’s smash these crab men!”
   “I’ve got daggers, not crackers and crab mallets,” shouts Gerki, “but I’ll do the best I can!”`,
-      compact: 'Chapter 3 prologue compact: Lanterns and old songs.',
+      compact: `Disguised in itchy rags to "blend in," the party prowls the Undercity while Zot grumbles about his rash. Eve admits she could have used illusion magic, but watching Zot suffer was "more entertaining."
+  At the Grey Market, the group learns that the locals are terrified of monsters emerging from the harbor-side tunnels. Zot confirms his theory: these aren't local slimes, but deep-sea invaders from the ocean floor.
+  The investigation is cut short by a violent quake. Humanoid crab-men, led by a massive commander blowing a conch shell, swarm the market. "Destroy the cave dwellers!" the leader bellows. "Then onward to their Great Temple!"
+  As oceanic slimes bubble up from new fissures to ensnare the fleeing citizens, Fiona draws her sword.
+  "I've got daggers, not crab mallets," Gerki shouts, "but I'll do my best!"`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -169,7 +179,10 @@ export const chapters: Chapter[] = [
   Deirdre’s eyes go wide with shock. “Do you remember what he said, about pressing onward toward the Great Temple? Maybe that’s where he and his followers are going! We need to warn them!”
   Gerki points toward an inconsequential-looking cavern entrance, indistinguishable from many others around the Grey Market.
   “This way!” he shouts. “I know a shortcut!”`,
-      compact: 'Chapter 3 epilogue compact: Music lingers in the rain.',
+      compact: `The market is a mess of slime and splintered shells, but as the party surveys the wreckage, they realize the crab leader is missing.
+  "The biggun's gone," Fiona notes.
+  Deirdre pales, remembering his war cry. "He said they were heading for the Great Temple! We have to warn them!"
+  Gerki points to a nondescript tunnel. "This way! I know a shortcut!"`,
     },
     reinforcements: [
       { title: 'Deploy', full: 'You’ve abandoned your meals but it appears your enemy has not. The crab-like hulks are spraying living muck this way and that while an undulating mass of slime eats its way through the Grey Market, melting stalls and eroding the rock!' },
@@ -202,7 +215,11 @@ export const chapters: Chapter[] = [
   “Rest assured, we’re not going to let that happen,” says Zot, pointing at the few spots of floor that are still clear. “Get to the pillars! Stop that slime!”
   Pooky acts before his master can finish speaking, hopping off Zot’s shoulder and bouncing from bare spot to bare spot, drawing ever nearer to the hideous creatures on the nearest pillar.
   As you ready your weaponry and shout a desperate battle cry, the giant crab man throws back his head and replies with a gout of mocking laughter…`,
-      compact: 'Chapter 4 prologue compact: Flour prints to the pantry.',
+      compact: `Following Gerki’s shortcut, you reach a massive chamber directly beneath the Great Temple. Four cyclopean pillars—the foundations of Greyport’s faith—hold up the ceiling. The giant crab leader waits there, surrounded by a cordon of slime, and launches into a megalomaniacal speech about the ocean washing away the "drylanders."
+  "I'll give that a 5.5 out of 10," Eve sniffs, unimpressed by his lack of originality.
+  Enraged, the crab man blows his conch. Walls erupt as pressurized gouts of glowing, acidic slime flood the room. The oozes swarm the four pillars, immediately beginning to dissolve the ancient stonework.
+  "Save the supports!" Deirdre cries.
+  As Pooky bounces across the vanishing dry ground toward the nearest pillar, the crab man lets out a mocking laugh.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -262,7 +279,10 @@ export const chapters: Chapter[] = [
   Zot smirks. “Lots of practice. Also, very bushy wizard eyebrows.” Your group turns a corner, squeezes its way through a much narrower, more roughly-hewn passageway, and into a large chamber. Before you, the bodies of several people have been arranged in a circle on the floor, their dead and empty eyes staring up at the ceiling. The bodies show signs of having been... altered... in unpleasant ways. Even from the doorway, you can see criss-crossing wounds that have been roughly sutured shut, as well as strange runes that have been branded on their faces and arms.
   Bolts of energy crackle up from the floor, arcing between the stone and the corpses. Galvanized by the magical energy, the dead leap to their feet, their limbs rigid, electricity sparking out of their eyes. You watch as their prostheses hum to life and their musculature bulges grotesquely beneath their tortured skin.
   Then they rush you, shrieking and wailing.`,
-      compact: 'Chapter 5 prologue compact: A brass key appears.',
+      compact: `Weeks after the slime battle, the party is stuck on "scrubbing duty" until they stumble into a dusty, forgotten tunnel. Eve spots a symbol of a disbanded order of rogue mystics—infamous for forbidden fleshcrafting and elemental slavery.
+  Zot dismisses it as a student prank, but Deirdre notes the carving is suspiciously fresh. Casting a detection spell, the mages pick up a trail of "unstable elemental magic" leading deeper into the gloom.
+  They enter a chamber where surgically altered corpses—branded with runes and roughly sutured—lie in a circle. Suddenly, crackling energy arcs through the room, jolting the bodies awake. Muscles bulge grotesquely and mechanical prostheses hum as the monstrosities leap to their feet, eyes sparking with magical lightning.
+  Shrieking and wailing, the reanimated horrors rush the party.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -284,7 +304,10 @@ export const chapters: Chapter[] = [
   “The old Collegium Observatory,” Zot says. “In the mountains west of the city. There’s no telling what they could be doing up there. We have to investigate.”
   “Agreed,” says Gerki, with a smile and a deft flick of his wrist. “But first, can’t we please take a minute to savor my very favorite part of being an adventurer?”
   Gerki pulls the chest’s lock open and swings back the lid, revealing all manner of wondrous objects. For a moment, the ominous presence of the Ancient Order of Mystics fades away from your minds, as you lean forward and appreciate your rewards. You have to agree with Gerki. Sometimes, being an adventurer is really, really great.`,
-      compact: 'Chapter 5 epilogue compact: Key stored; lock unknown.',
+      compact: `"Fleshcrafting is real, then?" Eve smirks as Zot begrudgingly admits the "impossible" has happened. While Deirdre heals the group's wounds, Gerki drags out the silver lining: a massive, ornate treasure chest.
+  Zot interrupts the lock-picking to reveal a recovered journal. The Ancient Order of Mystics isn't just a myth—they are an entrenched conspiracy operating out of the old Collegium Observatory in the western mountains.
+  "We have to investigate," Zot says, pointing to sketches of the observatory emitting dark, fractal energy.
+  "Agreed," Gerki replies, finally clicking the lock open to reveal a hoard of wondrous objects. "But first, let's savor my favorite part of adventuring!" For a moment, the dark Order is forgotten in the golden glow of the loot.`,
     },
     reinforcements: [
       { title: 'Reinforcements 1', full: 'The energy wall deactivates and you press on. The unfortunate use of magic here has attracted the attention of elementals who seem to be jealously guarding a large orb on a pedestal in one corner of the room. The orb pulsates with arcane energy, and conduits along the floor indicate that it powers the entire chamber.' },
@@ -322,7 +345,10 @@ export const chapters: Chapter[] = [
   “Let’s put a stop to this,” says Fiona.
   “Agreed,” says Zot. “And mind the beams coming from the…”
   As if on cue, the beams from the prisms, which were already unstable, suddenly lose their coherence. Magical energy pours out of the prisms in chaotic cascades, bathing swaths of the main chamber in unstable energies. Your party desperately attempts to avoid being cooked by the uncontrolled arcane power while attempting to stop the mystics and their evil deeds!`,
-      compact: 'Chapter 6 prologue compact: Salty banner, no harbor.',
+      compact: `The climb was long, high-altitude, and made even more exhausting by Zot’s endless monologues on wizardly politics. Reaching the crumbling mountain observatory, the party felt an invasive magical hum that made their teeth rattle and Pooky’s fur stand on end. "Poorly-aligned harmonics," Zot warned. "We might be damaged if we stay too long."
+  Inside, beneath a jewel-looted dome, they witnessed a grim trade: the Ancient Order of Mystics was buying goblin slaves from smugglers in exchange for enchanted weapons. The goal? Test subjects for a "Mana Forge"—a silver sarcophagus designed to permanently enchant living flesh.
+  The scene erupted into chaos when a captive goblin slipped her bonds and sabotaged the machinery. Unstable prismatic beams immediately lashed out, bathing the room in chaotic energy.
+  "Let's put a stop to this," Fiona growled, as the party charged into the magical crossfire to end the Mystics' cruel experiments.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -340,7 +366,10 @@ export const chapters: Chapter[] = [
   “What will you be doing about all of us?” asks the goblin, somewhat tentatively.
   “You’re free to go,” says Deirdre. “Let us know if any of these runners or mystics bother any of you ever again.”
   “We shall be doing so, elfish lady,” says the goblin, saluting your party with a final, rubbery bow.`,
-      compact: 'Chapter 6 epilogue compact: Salt crusts and dries.',
+      compact: `The battle is won, and Zot carefully disables the prisms, though everything still emits a faint, radioactive blue glow. At least the death beams are gone.
+  After freeing the goblins, the party learns they were kidnapped by "Runners" from Greyport to be sold as test subjects. "Runners?" Gerki mutters. "That’s not good."
+  Zot is grim. Between the "impossible" fleshcrafting and the stolen Collegium gear, it's clear the Ancient Order of Mystics is a major threat. "We need to return to Greyport and see Chancellor Darvishon," Zot insists. "He needs to know the Collegium’s own equipment is being used for this."
+  Fiona groans at the thought of boring meetings, but agrees it’s too big to ignore. The goblins are set free with a rubbery salute, and the adventurers begin the long trek back to the city.`,
     },
     reinforcements: [
       { title: 'The Arcane Golem', full: 'With a thunderous crash, the lid of the silver sarcophagus is thrown from its base. A flash of brilliant electricity makes your hair stand on end as a large shape hurtles through the air and smashes to the ground beside you. When the dust clears, you see the menacing construct. Its silver shell, loosely held together, encases an orb of pure energy in its chest. As its hands open, lightning arcs between its fingers, and with a bloodcurdling scream it lashes out!' },
@@ -376,7 +405,11 @@ export const chapters: Chapter[] = [
   “Fi!” shouts Gerki, “Look out!”
   But Fiona runs on, heedless of the tripwire in her path. It snaps in half as the dauntless warrior passes through it, triggering a hidden mechanism in the shadowed rafters of the warehouse. With a torturous groan, stacks scatters, barely avoiding getting crushed by the trap.
   Runners hear the noise, obviously, and before you and your compatriots can regroup, they draw their enchanted weapons and rush forward to join you in battle.`,
-      compact: 'Chapter 7 prologue compact: Casks rumble like drums.',
+      compact: `Deep in the Undercity, a coded message—passed through spies and briefly baked into a pie—finally reaches Gerki at the Red Dragon Inn. The note, smelling of apples and cinnamon, confirms the worst: a gang of "Runners" is kidnapping citizens and selling them as "components" to a mysterious backer.
+  Disguised by Eve’s magic, the party stakes out a ramshackle warehouse at the Greyport Docks. Hidden behind stacks of crates, they overhear the Runners discussing their lucrative, if dangerous, trade in human lives.
+  "Stolen goods is one thing," a gangly woman mutters, paring her nails with a razor. "Slaves is another. It's getting too hot."
+  "We get the shipment to the docks, we get paid," the leader, Brek, retorts.
+  Fiona has heard enough. "These slaver scum are gonna taste hot steel!" she roars, charging the room. In her fury, she snaps a hidden tripwire, sending heavy merchandise crashing down from the rafters. The party barely dodges the trap as the Runners draw their glowing, enchanted weapons and rush into the fray.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -392,7 +425,12 @@ export const chapters: Chapter[] = [
   “But we know the where and the when,” says Fiona. “We can put a stop to this once and for all.”
   “We can,” says Zot, rising. “But I suspect we are going to need some help to do it. Tomorrow, we need to come back here and see if the Crimson Drake is in port. I suspect that Captain Whitehawk and her crew would happily aid us if they knew what was happening.”
   “Good,” says Gog. “Gog not like slavers!”`,
-      compact: 'Chapter 7 epilogue compact: Rumbling fades to cheers.',
+      compact: `The battle is won, but the threat remains. While Deirdre offers thanks for the victory, Gerki and Zot pore over the Runners' abandoned manifests.
+  "There's more of them," Gerki warns. "These were just the bookkeepers."
+  Zot uncovers a more urgent detail: a rendezvous is scheduled for three nights from now in the open sea. The Runners plan to transfer "exotic merchandise"—more captives—to their employer’s vessel.
+  "We know the where and the when," Fiona says, her hand on her sword. "We stop this for good."
+  Zot nods, already planning their next move. "We'll need a ship. Tomorrow, we look for the Crimson Drake. Captain Whitehawk won't take kindly to slavers in her waters."
+  "Good," Gog grunts. "Gog not like slavers!"`,
     },
   },
   {
@@ -425,7 +463,11 @@ export const chapters: Chapter[] = [
   “She’s trying to ram us! Turn! Turn!”
   The Drake responds, but not quickly enough. There is a shuddering, splintering crash as the slaver ship collides and grinds into your vessel. Pooky hops onto the deck as Zot topples over backward from the force of the impact. The rest of you stumble and tumble, trying to keep your footing, and swiftly lose one another in the chaos of fog, flames, and smoke.
   “Standby to repel boarders!” roars someone on the other ship. “Look lively now!”`,
-      compact: 'Chapter 8 prologue compact: A dragon-stamped letter arrives.',
+      compact: `Fortunately, Captain Whitehawk and her crew hate slavers as much as you do. While Bryn the Boatswain preps the cannons, the blind psychic navigator, Tara, uses her "eighth sense" to plot a course. She predicts a sudden temperature drop—and right on cue, a thick, pea-soup fog rolls in to mask the Crimson Drake's approach.
+  Under the moonlit mist, the Drake intercepts the slaver vessel. "When we get in range, we cripple them and demand surrender," Whitehawk winks. But the enemy spots the ambush. "It’s not the Venalicus!" they scream. "Ready the cannons!"
+  "Bryn! Fire!" Whitehawk bellows.
+  The Drake’s cannons roar, shattering the night and settting the slaver's sails ablaze. Instead of returning fire, the enemy ship steers for a desperate maneuver. "She's trying to ram us!"
+  A splintering crash rocks both vessels, throwing everyone to the deck. Through the smoke and fire, a roar rises from the enemy deck: "Standby to repel boarders!"`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -448,7 +490,12 @@ export const chapters: Chapter[] = [
   “Before Zoog hear plan,” bellows one of the ogres, “Zoog want Gog autograph! Zoog love you, Gog! Zoog think you greatest adventurer!”
   “Gog love you, too!” shouts Gog, smiling and waving.
   Upon hearing this, Zoog promptly squeals and faints.`,
-      compact: 'Chapter 8 epilogue compact: Seal broken; warning kept.',
+      compact: `The battle ends with the prisoners freed and the slavers barely saved from being ground into meal by the angry ogres. Captain Grolnar, the ogre leader, surrenders his cutlass, but Fiona skips the ceremony and puts him in a bone-crunching headlock.
+  "Talk!" she snarls. "Who were you delivering them to?"
+  "Whomever," Zot corrects.
+  Gasping for air, Grolnar reveals the buyer: Lord Maybury, a wealthy merchant famous for his massive donations to the Great Temple. "I’m just the middleman," the pirate wheezes. "I don't ask questions."
+  While Deirdre reels at the thought of a "pious" merchant dealing in slaves, Gerki drums his fingers on the railing with a sly, buck-toothed grin. "I have a plan!"
+  Before he can share it, a rescued ogre named Zoog interrupts to beg for Gog’s autograph. When Gog waves back, Zoog promptly squeals and faints from pure fandom.`,
     },
     reinforcements: [
       { title: 'Reinforcements 1', full: 'You spot the pirate captain shouting orders from the quarterdeck. He is an ogre who seems to be among the top ten scurviest of dogs you have ever seen.' },
@@ -486,7 +533,10 @@ export const chapters: Chapter[] = [
   …but he doesn’t! Instead, he takes his fat purse of money with his customary garrulousness and incomprehensible sailors’ talk, and beats feet—well, foot—out into the night and, hopefully, as far away from Greyport as he can get.
   “Right,” says the captain of the guards, after giving your cages a thorough going-over. “That should hold this lot for a bit. Let’s go inform his lordship that we’ve completed the transaction.”
   The guards depart, leaving one of their number behind to stand guard...who promptly falls asleep at the desk in the center of the room. Eve casually snaps her fingers and drops your ogre disguises. Though the bars of your cages are sturdy enough to thwart an ogre’s strength, they are also spaced rather widely apart, and so it is no trouble for you to step between them to freedom. A quick cantrip from Zot unlocks Gog’s cage, and suddenly you have the drop on the sleeping guard!`,
-      compact: 'Chapter 9 prologue compact: Frost rune on the door.',
+      compact: `Back in Greyport, the party navigates a sea of bureaucracy before stashing Captain Grolnar in the Red Dragon Inn’s cellar for some "quality time." Under the threat of being thrown a record distance by Gog, Grolnar agrees to Gerki’s plan: finish the handoff to Lord Maybury, donate the blood money to the Great Temple, and vanish from the city forever.
+  Disguised by Eve’s illusions as a chain-gang of slouching ogres, the party follows Grolnar to the back door of Lord Maybury’s opulent estate. The merchant’s nervous guards lead you into a stone dungeon and lock you in massive, wide-barred cages.
+  To everyone’s relief, Grolnar takes his payment and flees into the night without snitching. Once the head guard leaves to inform his lordship, the lone sentry at the desk promptly falls asleep.
+  Eve snaps her fingers, dissolving the disguises. Since the bars were designed for ogres, the adventurers simply step through the gaps. With a quick cantrip from Zot to release Gog, the party now has the drop on Maybury’s dungeon!`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -510,7 +560,13 @@ export const chapters: Chapter[] = [
   “Job well done, everyone,” says Zot, squinting into the sun.
   “Yay, us,” says Fiona, yawning. “As a reward for our bravery and valor in battle, I award us with the coveted prize of…going the hell to bed!”
   “Praise the Goddess,” says Deirdre, gratefully.`,
-      compact: 'Chapter 9 epilogue compact: Rune melts; chill remains.',
+      compact: `"You're under arrest, Lord Maybury," Deirdre declares, hauling the disheveled noble to his feet.
+  "I would have gotten away with it, too," Maybury snarls, "if not for you meddlesome adventurers and your stupid rabbit!" Pooky grins, revealing a terrifying number of teeth, and Maybury blanches.
+  Under a bit of "persuasion" from Gog, the nobleman cracks. "I don't know who I bought them for! I was just a middleman!"
+  "Another middleman?!" Fiona shouts. "How many are there?"
+  Zot intervenes before things get too violent, insisting they turn Maybury over to the City Guard. After a long night of processing at the chapterhouse, the guard takes the noble into custody, hoping the quiet arrest will lead them to the true mastermind.
+  As they emerge into the brightening dawn, Zot commends the group on a job well done. Fiona just yawns. "As a reward for our bravery, I award us the prize of going the hell to bed!"
+  "Praise the Goddess," Deirdre sighs in agreement.`,
     },
     reinforcements: [
       { title: 'Reinforcements 1', full: 'You hear a distant shout: “Guards! Intruders!” You’ll need to hurry to catch Lord Maybury before he can escape!' },
@@ -550,7 +606,15 @@ export const chapters: Chapter[] = [
   “We need more!” shouts another. “And hurry, the Collegium’s forces will be here before long.”
   You know that you need to get up to the platforms, but you’re not sure how. You’re about to ask Darvishon for a little help—something in the way of a flight or levitate spell—when he points to a globe-shaped device near you. “These are teleport nodes. Touch that one!”
   Darvishon then drops into a typical battlecasting stance, touches another of the nodes himself and vanishes from sight.`,
-      compact: 'Chapter 10 prologue compact: A humming coin by the fire.',
+      compact: `After weeks of waiting, Zot finally secures a meeting with Chancellor Darvishon, the regal and charming head of the Mages’ Collegium. The party piles into his opulent office, all talking at once about the Ancient Order of Mystics, the Mana Forge, and Lord Maybury’s slave-trading.
+  Darvishon is appalled. "To think such illegal magic was happening under our noses..."
+  His words are cut short by a massive explosion that rattles the office. Darvishon rushes to a smoky crystal ball, his face turning grim. "The Vault! It’s under attack!"
+  The party doesn't hesitate. Fiona’s blade is out before the Chancellor can even ask for help.
+  The Battle for the Vault
+  The Collegium Vault is a surreal pocket dimension of floating platforms and rune-carved stone. One wall has been liquefied into purple slime by an arcane blast. Mystics are already everywhere, ransacking floating shelves and tossing priceless artifacts aside.
+  "I found one!" a mystic shouts, clutching a glowing sphere.
+  "We need more! Hurry!" another bellows.
+  To reach the looters, Darvishon points to a series of glowing, globe-shaped teleport nodes. "Touch these!" he commands. The Chancellor strikes a battle-casting stance, taps a node, and vanishes. It’s time to take the fight to the platforms!`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -564,7 +628,12 @@ export const chapters: Chapter[] = [
   You all offer your thanks to the chancellor and his generosity, and Fiona lifts her bloodied sword and cheers at the prospect of drinking at the Red Dragon.
   Gerki, for his part, looks up at the chancellor and winks. “I like the sound of that, though I think you’re going to regret treating us in, oh, say an hour or two.”
   Zot elbows Gerki again, but the plucky thief keeps right on grinning.`,
-      compact: 'Chapter 10 epilogue compact: Coin cools; hum fades.',
+      compact: `The Battle for the Vault is over. The Mystics are defeated, their elemental allies banished, and the Collegium's artifacts secured. Security personnel quickly arrive, placing the rogue wizards into temporal stasis for transport to an anti-magic prison.
+  "I just hope it’s more secure than the Vault," Gerki remarks, eyeing the melted hole in the wall.
+  Zot elbows him as Chancellor Darvishon approaches, beaming with gratitude. "My friends! Well done indeed! You’ve saved the Collegium and everyone in it."
+  The Chancellor gives the party an appraising look. "I’m not much of an adventurer, but I believe there's a ritual for this sort of thing. What say we head to the Red Dragon Inn? My treat!"
+  Fiona cheers, hoisting her bloodied sword at the prospect of free ale. Gerki just winks at the Chancellor. "I like the sound of that, though you’re going to regret the 'my treat' part in about two hours."
+  Zot elbows him again, but the party is already halfway to the door.`,
     },
   },
   {
@@ -608,7 +677,12 @@ export const chapters: Chapter[] = [
   “What is that,” asks Gerki, craning his neck. “Wolves?”
   “Worse than that,” says Fiona, readying her weapons. “Shadow wolves. With fancy magical auras and everything.”
   “Seriously? Seriously?!?” Gerki buries his head in his hands. “I’d rather be washing dishes!”`,
-      compact: 'Chapter 11 prologue compact: A one-armed veteran returns.',
+      compact: `The party’s victory celebration at the Red Dragon Inn is cut short when Warthorn, Molly, and Roxana corner them with a "favor." Roxana needs exotic kwiiop fruit for a new recipe, and Warthorn reminds the group they still owe him for that "surprise basement renovation."
+  The catch? The only guide is Brock, a giant, territorial dire chicken who once tried to eat Gerki. Brock needs to return to his ancestral roosting grounds—which just happen to be where the fruit grows.
+  Days later, the group reaches a humid southern valley filled with pale trees and ripe, purple-and-white fruit. As Brock happily smashes a fallen kwiiop to feast on the pulp, a bone-chilling howl echoes through the hills.
+  "Wolves?" Gerki asks hopefully.
+  "Worse," Fiona says, unsheathing her sword. "Shadow wolves. Magical auras and everything."
+  Gerki buries his face in his hands. "I’d rather be washing dishes!"`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -630,7 +704,13 @@ export const chapters: Chapter[] = [
   “No!”
   “Gog,” says Zot, with the patience of someone who has asked wizards-in-training for their homework for the better part of two decades. “I think you did. Give me your sack.”
   “What sack?” says Gog, his voice muffled by a mouthful of burlap.`,
-      compact: 'Chapter 11 epilogue compact: A nod, a warning kept.',
+      compact: `After driving off the persistent shadow wolves, the party loads the cart with fruit and bids Brock farewell. The giant bird nuzzles everyone—except Gerki, whose hair it tries to eat—before flapping away.
+  "Good riddance," Gerki grumbles, "I hope you find a vat of hot oil!"
+  On the long trek back, the silence is punctuated by suspicious crunching noises. Every time Zot looks back, Gog is "distracted" by a landmark or "checking the rearguard." By the time the Red Dragon Inn is in sight, Gog’s sack appears suspiciously light.
+  "Gog," Zot sighs with practiced teacher patience, "did you eat all your fruit?"
+  "No!" Gog insists.
+  "Then give me the sack."
+  "What sack?" Gog asks, his voice muffled by the fact that he is currently chewing on the burlap itself.`,
     },
     reinforcements: [
       { title: 'Reinforcements 1', full: 'You almost have enough fruit to take back to Roxana, but a certain feasting dire chicken is greatly interfering with your plans. The lowhanging fruit is gone - literally - so you will have to work harder to get the rest of what you need!' },
@@ -688,7 +768,12 @@ export const chapters: Chapter[] = [
   “Also,” says one bespectacled barbarian, who appears in your midst bearing a dripping quill and a sheaf of parchment. “Please sign these waivers before the beginning of the fight.”
   “So, what is this,” says Fiona, as you all sign the forms. “We gonna fight you one-on-one or do you just want us to mob you, king of the mountain style?”
   “Neither,” says Cormac, gesturing at the people in his honor guard. “Us versus you.” and with that, the barbarians charge you.`,
-      compact: 'Chapter 12 prologue compact: Unsigned black powder delivery.',
+      compact: `Fiona starts a peaceful night at the Red Dragon Inn by slamming down a weathered flyer: THE RUMBLE IN THE RUINS. The barbarian clans are hosting a brutal tournament in the dwarven ruins, featuring Crown Prince Cormac’s exhibition bout. Zot calls it barbaric (Eve notes that’s the point), but Fiona, Deirdre, and a foam-finger-waving Gog insist on going.
+  The ruins are packed with a rowdy, ale-soaked crowd. Cormac strides into the arena, glistening with gems and muscles. Spotting the party, he bellows a challenge: "My friends from the Red Dragon Inn! Come face me in honorable combat!"
+  Before Zot can finish his polite refusal, the crowd surges, carrying the party onto the ancient sands. Fiona is ecstatic; Zot is miserable; Pooky is ready for blood.
+  "Good to see you," Cormac grins, his voice dropping as a barbarian clerk rushes over with liability waivers. "Sign these. Use the blunted weapons—we're not trying to kill each other. Ready?"
+  As the last signature is blotted, Cormac gestures to his elite honor guard. "It’s us versus you!"
+  With a roar, the barbarians charge.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -699,7 +784,10 @@ export const chapters: Chapter[] = [
   You are paraded around to another crescendo of applause and cheering before being carried out toward the healers’ tents. As you leave, you can hear Cormac’s voice boom out across the ruins.
   “A stunning battle, my friends! Wouldn’t you agree?”
   After a dramatic pause for cheering, he adds. “WELL, THIS IS ONLY THE BEGINNING!”`,
-      compact: 'Chapter 12 epilogue compact: Powder locked; fuse dry.',
+      compact: `As the last of the honor guard yields to your (mostly) non-lethal blows, the ruins explode in a deafening roar of firepots and cheers. While some die-hard northern fans boo, many warriors offer the silent, respectful nods reserved for those who can hold their own against a Prince.
+  Cormac, bruised but beaming, hauls himself up and hoists each of your hands in victory. The celebration doesn't stop there—the barbarians hoist the party onto their shoulders for a victory lap. Zot clings to his dignity, Fiona whoops at the crowd, and Gog ends up carrying four members of the guard himself after they fail to lift him.
+  As you're paraded toward the healers' tents to patch up your scrapes, Cormac’s voice booms over the mountains one last time.
+  “A stunning battle, my friends! But believe me... THIS IS ONLY THE BEGINNING!”`,
     },
   },
   {
@@ -745,7 +833,12 @@ export const chapters: Chapter[] = [
   “You’re...Drop your weapon...Wand!” stammers Fiona at last. “Whatever! Surrender now or…”
   A dart of magical energy flashes from Longmont’s hands, forcing you to take cover in the nearby warehouse. Longmont makes a mystical gesture, creating a wall of white-hot flames and closing the warehouse doors behind you.
   You hear a feral shriek and leathery wings. Multiple windows shatter as monstrous creatures burst into the building!`,
-      compact: 'Chapter 13 prologue compact: Midnight water boils.',
+      compact: `The celebration at the Red Dragon Inn turned into a forensic debate as Eve’s sharp mind picked apart the gaps in the story. "How did the Mystics know exactly which spells to use for the Vault? How did they stay hidden in the observatory?" she pressed. "It feels like we’re missing a piece."
+  The party decided to use Lord Maybury as their "machete" to cut through the mystery. Eager to escape his damp cell, Maybury offered a deal: he’d lead them to his contact if they escorted him.
+  The plan worked—until it worked too well. After a cloak-and-dagger meeting at a secluded warehouse, the hooded figure stepped into the light.
+  "I know that voice!" Zot cried, stepping out with his staff wreathed in flame.
+  As the hood fell, the party froze in shock. It wasn't some shadowy cultist, but Arben Longmont, Vice-Chancellor of the Collegium. The fatherly mask had vanished, replaced by a sneer of pure malice. Before Fiona could even shout a coherent order to surrender, Longmont unleashed a flash of arcane power.
+  A wall of white-hot fire slammed shut behind you, sealing the warehouse doors. Then came the sound that made your blood run cold: the shattering of glass and a feral, leathery shriek. Monstrous creatures are bursting through the high windows!`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -781,7 +874,12 @@ export const chapters: Chapter[] = [
   “No,” says Zot.
   “But...treasures! Lost cities! Traps! Zot. Buddy. I’m your guy!”
   “Not this time,” says Zot. “We need Keet.”`,
-      compact: 'Chapter 13 epilogue compact: The well cools down.',
+      compact: `Longmont vanished in a flash of magic, leaving the party with a terrified Lord Maybury. "Gog saw you sneak out!" the ogre roared, dumping the scorched noble onto the floor. Maybury, now fully cooperative in his cowardice, was hauled back to the Guard while the party rushed to inform Chancellor Darvishon of the Vice-Chancellor’s betrayal.
+  Darvishon led them to Longmont’s austere chambers, where a search revealed nothing—until Eve flipped over a blackboard covered in "bland toast" spells. On the back was a conspiracy board of maps and red yarn centered on the Barren Wastes.
+  Ley lines converged on a glowing heart in the desert and a dark symbol over Greyport. "That’s a mark of the Obsidian Door," Deirdre whispered, "the seal against a world of nightmares." Notes tucked into the map spoke of "secrets most dreadful" and monuments protected by curses that petrified the local guides.
+  "Longmont is hunting the door," Zot concluded.
+  "Treasures! Traps! I’m your guy!" Gerki shouted, already checking his lockpicks.
+  "No," Zot replied firmly. "We need an archaeologist. We need Keet."`,
     },
     reinforcements: [
       { title: 'Longmont Appears!', full: 'With a wave of his hand, Longmont opens the magically-sealed door. “Idiots!” he snarls at his minions. “I’ll have to take care of this turncoat myself!”' },
@@ -825,7 +923,10 @@ export const chapters: Chapter[] = [
   “Right,” says Fiona. “We’re gonna have to deal with these attackers!”
   “Yes,” says Gerki, “and at least one of us is going to have to stay here and protect the merchandise. I nominate me.”
   “No,” says Zot.`,
-      compact: 'Chapter 14 prologue compact: Sketch of a missing tower.',
+      compact: `The party tracked Keet to the Copperforge Convocation, a massive trade fair for magic and technology. After a brief detour involving Gog nearly breaking a kettle drum, they found the goblin archaeologist in "Antiquities Avenue" alongside his companions, Nitrel (the bomber) and Zariah (the summoner).
+  Over expensive food-stall snacks, Keet confirmed the rumors: the monuments in the Barren Wastes are real, but currently impenetrable. "There’s a force field," Keet explained. "Nitrel blew up everything she had, Zariah tried tunneling with an earth elemental, and teleportation is a total wash. It's an airtight magical sphere."
+  Their debrief was cut short by a booming, magically-amplified voice: "Attention! The fountain area is under attack by bandits!" As the crowd descended into a panic—and the announcer lamented the rescheduling of Wizgille’s autograph session—Fiona reached for her sword. "Attackers? We’re on it!"
+  Gerki immediately volunteered to "stay behind and protect the merchandise," but Zot shut him down with a firm look. "No. We move."`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -842,7 +943,10 @@ export const chapters: Chapter[] = [
   Nitrel tosses an unlit bomb from hand to hand. “Had to clear a few stalls to accommodate the traffic, but it all worked out.”
   Deirdre presses her delicate fingertips to her temple. “That…I don’t know…that seems very reckless and unsafe to me.”
   Nitrel drops the bomb back in her bag and shrugs. “Maybe, but the important thing is that it worked. And if Copperforge has an issue with that, they can bill me.”`,
-      compact: 'Chapter 14 epilogue compact: Sketch stored; plans pinned.',
+      compact: `The battle is over, and the "bandits" have been dealt with—though everyone is skeptical about their true identity.
+  "Bandits don't usually bring a wizarding corps," Gerki noted, "and they usually bother to actually steal something."
+  "Especially when wading through a sea of magitech gizmos," Eve added, miraculously still holding her nine-gold teacup. When Fiona asked why she’d bothered to save the drink during a lethal skirmish, Eve was blunt: "It cost nine gold. And I’m amazing."
+  Zariah and Nitrel rejoined the group, reporting that the civilians were safe. Nitrel admitted she had to "clear a few stalls" with explosives to manage the crowd flow, a tactic that left Deirdre more than a little concerned about the local repair bill. Nitrel, however, remained unfazed: "If Copperforge has an issue, they can bill me."`,
     },
   },
   {
@@ -887,7 +991,13 @@ export const chapters: Chapter[] = [
   He points down the opposite side of the unnel, which rapidly disappears into darkness.
   “Do the slimes know they’re meant to be erded?” asks Deirdre.
   Chronos looks a touch anxious. “Well…no. So please be very careful.”`,
-      compact: 'Chapter 15 prologue compact: Ghost music maps paths.',
+      compact: `After a water-buying spree that would satisfy a desert-dwelling army, you bid farewell to Keet, Nitrel, and Zariah. Your wagons, creaking under the weight of endless casks, barely made it over the mountains. But just as the Barren Wastes came into view, the air began to tick.
+  With a loud chime, a slightly older version of Chronos the Time Mage stepped through a sparkling portal. He looked worried. Though the timeline was technically intact, he warned of a future so grim he had to intervene. "We have to go back in time to save the Great Temple," he insisted.
+  "But we already did that!" Deirdre pointed out.
+  "It’s complicated," Chronos sighed, ushering you through the door.
+  You emerged in the damp, fetid tunnels of Greyport’s Undercity. Fiona’s sword was out in a flash as she spotted a mass of multicolored, wall-dissolving slimes undulating toward you.
+  "Let's waste 'em!" she cheered.
+  "No!" Chronos jumped in front of her. "You can't kill them! If you do, you'll ruin the timeline. You have to... well, you have to herd them." He pointed into the dark, opposite tunnel. "That way. And please, be careful—they don't know they're being moved."`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -917,7 +1027,13 @@ export const chapters: Chapter[] = [
   “Why?” says Deirdre. “What’s going to happen, Chronos?”
   “It’s just that…” he gasps, pointing behind you. “By Shalni! It’s the Lich King!”
   You whip around to face your dreaded enemy, your weapons at the ready. By the time you realize that you have been duped and spin back around, Chronos has already vanished into the timestream.`,
-      compact: 'Chapter 15 epilogue compact: Notes fade; chalk remains.',
+      compact: `After a messy session of slime-herding, you watched the ceiling collapse to reveal the basement of the Red Dragon Inn. Through the dust, you heard the distant, familiar voices of your past selves.
+  "Quickly, before you see you!" Chronos hissed, ushering you back through the time door.
+  Weeks later (but only a moment for you), you were back at the mountain waystation. Under a barrage of questions, Chronos finally folded. He confessed that he’d set the whole thing up: the slimes had to eat through that specific ceiling at that specific moment so your past selves would investigate the Undercity and stop the Crab Man from destroying the Great Temple.
+  "You're going to need all the divine help you can get for what's coming," he added, before turning pale.
+  "What's coming, Chronos?" Deirdre asked, her voice dangerously calm.
+  "Look! The Lich King!" Chronos shrieked, pointing behind you.
+  By the time you realized there wasn't a skeleton in sight and spun back around, the time mage had vanished, leaving only a fading shimmer in the air and a very ominous feeling in your gut.`,
     },
     reinforcements: [
       { title: 'Reinforcements 1', full: 'Just as you think you have the endless slimes under control, some stragglers appear!' },
@@ -947,7 +1063,9 @@ export const chapters: Chapter[] = [
   You are almost within bowshot of the great dust cloud when a horse and rider emerge from it, racing at great speed in your general direction. The horse is scared out of its wits, its eyes wide and white, its sides covered with a thick lather. Its rider is a woman waving a broken sword. She is covered in dust, and is bleeding freely from two puncture wounds on her shoulder. Her eyes are almost as wild as her horse’s, but when they focus briefly on you, some vestige of intelligence reasserts itself over her panic.
   “Thank the gods!” she cries. “You have to help us! The golems! They’re trying to kill us!” you have many questions, but there will be time to ask them when the battle is done. You plunge headlong into the swirling dust cloud, your weapons at the ready. You cast various light spells to give an almost daytime level of brightness to the area, revealing huge lumbering stone figures, their bodies grinding and scraping. They have encircled a small band of wounded and overwhelmed human travelers, loading them onto the back of a massive, brutal scorpion.
   One golem turns its nearly featureless face to you and swings wide with its glowing stone staff. A silent command ripples across the sand, launching the scorpion into action and causing the sand to shift. You can immediately sense that in addition to the foes you can see, there is something else beneath you!`,
-      compact: 'Chapter 16 prologue compact: Trap wire in a lute string.',
+      compact: `As the moon turns the desert floor into a shimmering wintry plane, your trek across the Barren Wastes is interrupted by the sounds of battle and grinding stone. After encountering a panicked, wounded rider, you dive into a choking cloud of dust to find a scene of mechanical horror.
+  Stone golems, their joints shrieking with the sound of grinding rock, are rounding up travelers and loading them onto the back of a monstrous, chitinous scorpion. These aren't just mindless guardians; they move with a cold, synchronized purpose.
+  As you reveal the scene with your light spells, a golem swings a glowing stone staff in a wide arc, signaling your arrival. The massive scorpion skitters forward, but your feet catch on shifting ground. A low vibration thrums through the soles of your boots—there is a predator beneath the sand, and it’s moving faster than the giants above.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -978,7 +1096,11 @@ export const chapters: Chapter[] = [
   Eve mouths something that looks like, “We would?”
   Zot shrugs, but Deirdre smiles at Fiona with approval.
   “That’s great,” says Pherry, shaking Fiona’s hand. “Thank you. Thank you all!”`,
-      compact: 'Chapter 16 epilogue compact: Wire coiled; tune returns.',
+      compact: `After rescuing the quartet of "aspiring heroes"—Pherry, Thamart, Artin, and Runa—it’s clear they are essentially the younger, less prepared mirrors of your own party. Between the sunburns, the empty water skins, and the fact that they got lost in a place where you can see for miles, it’s a miracle they survived at all.
+  "Three skins of water!" Runa snapped at Artin, who defended his poor navigation by blaming the lack of trees.
+  Gerki nudged Fiona, whispering, "Now who do these youngsters remind you of?" Fiona laughed, admitting they were just like her and Gerki back in the Undercity days.
+  Pherry explained that they were hunting treasure based on a map she won in a card game—a map that looks suspiciously like Vice-Chancellor Longmont’s. When Fiona enthusiastically agreed to team up and "show them the ropes," Eve looked skeptical, but Zot and Deirdre gave in to the nostalgia of helping a new generation of adventurers.
+  "Thank you!" Pherry said, beaming. "With you lot helping us, I think we might actually make it to those ruins in one piece."`,
     },
   },
   {
@@ -1020,7 +1142,7 @@ export const chapters: Chapter[] = [
   A beam of energy lances out of the sky, striking the barrier and illuminating it with a pearlescent glow. Portions of the barrier begin to flicker in and out of existence as you watch. Small holes appear near the peak of the magical dome, slowly widening and spreading as you look on.
   Hidden doors on the pyramid grind open slowly on sand-clogged mechanisms, letting forth a deluge of monstrous beasts into the ruined plaza. The creatures look up at the slowly-collapsing dome before directing their attention—and their rage—at the group of you arrayed outside the barrier. Letting out loud, bestial calls, they advance upon you, talons raised.
   The creatures phase effortlessly through the barrier and into the plaza. You shout your battle cries as they engage you.`,
-      compact: 'Chapter 17 prologue compact: Scarlet moths on glass.',
+      compact: ``,
     },
     epilogue: {
       title: 'Epilogue',
@@ -1034,7 +1156,9 @@ export const chapters: Chapter[] = [
   “Yeah, yeah,” says Gerki. “We know we’re great.”
   Gerki pauses dramatically, before smiling and rubbing his hands together. “Now, who wants to go loot the monuments and tombs of a long-dead civilization and grab literally everything that’s not nailed down?”
   The four young adventurers, as well as gerki, Gog, and Fiona, enthusiastically shoot their hands up into the air.`,
-      compact: 'Chapter 17 epilogue compact: Moths scatter; dust remains.',
+      compact: `The desert heat is forgotten as you stand before the towering, pale pyramid. The shimmering heat distortion is nothing compared to the literal shimmer of the Ancient Aegis—the spherical force field Keet warned you about.
+  After patching up the bruised egos (and foreheads) of Pherry’s crew, Zot and Eve identified the solution: a Harmonic Overload. By matching the magical resonance of the shield, one of them can shatter it. However, as the shield begins to ripple like water under their chant, the "secondary defenses" make their grand entrance.
+  From the pyramid's base, massive stone slabs grind open, releasing Guardian Chimera and Sand-Stalkers—beasts of jagged obsidian and shifting dunes that ignore the barrier as if it were mere mist.`,
     },
   },
   {
@@ -1091,7 +1215,15 @@ export const chapters: Chapter[] = [
   From below the statues come torrents of blue-black scarab beetles, their mandibles hissing and clacking. The smaller ones aren’t much of a threat, but several gigantic ones approach you menacingly. While you are distracted by the wave of insects, you barely even notice that some of the statues are now stepping down from their pedestals.
   “This bad,” says Gog, cracking his massive knuckles. The novice adventurers run toward you to try to get into a defensive formation. Unfortunately, thamart clumsily steps on another pressure plate. He trips forward onto his face right before a gout of bluish-purple lightning cooks the stone upon which he previously stood. As Thamart rises, he realizes that he has two scarab beetles squirming around in his hair. His screams echo around the room as he swats them off.
   Eve raises her staff and turns to Gog. “No. This worse.”`,
-      compact: 'Chapter 18 prologue compact: Ley lines underfoot.',
+      compact: `After an exhausting climb, you reached the pyramid's summit and discovered a bronze disc carved with a heart. Gog heaved it aside, revealing a dark drop into the depths.
+  Zot seized the moment for a "teaching opportunity," leading the novice adventurers to combine their rope and spikes into a 200-foot lifeline. One by one, you descended into a breathtaking chamber filled with elven murals and gold-adorned statues.
+  "We’ve never tomb raided before!" Pherry chirped. "I’m so excited!"
+  "Take it easy," Gerki warned. "I need to check for tra—"
+  Click.
+  Artin’s foot depressed a hidden plate. A volley of javelins hissed through the air, followed by a distant, ominous skittering. Suddenly, blue-black scarab beetles flooded the floor, mandibles clacking.
+  As the party prepared for the swarm, Thamart stumbled onto a second plate. A gout of purple lightning scorched the air where he’d just been standing, and the massive stone statues began to step down from their pedestals with a heavy, grinding thud.
+  "This bad," Gog muttered, cracking his knuckles.
+  Eve raised her staff as the novices panicked. "No," she corrected. "This is worse."`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -1112,7 +1244,11 @@ export const chapters: Chapter[] = [
   “Hey, kids!” says Gerki. “You look great wearing all that stuff that you found inside of a long-lost and likely cursed tomb! We’re gonna explore this staircase.”
   “Uh...” says Pherry, as a double handful of ancient treasures topples out of Artin’s hands to clatter noisily on the floor.
   “Stay out of trouble, okay?” says Gerki, as your party descends into the depths of the earth.`,
-      compact: 'Chapter 18 epilogue compact: Wards hum then settle.',
+      compact: `The statues lie in rubble and the last of the scarabs have been crushed. While Fiona gives the shaken novices a pep talk and Deirdre mends their scrapes, Artin—regaining his surly confidence—points out two discoveries: a secret door in the wall and a hidden staircase beneath a pedestal.
+  Behind the secret door, the party finds a literal mountain of gold, jewels, and ancient relics. It's enough to make a dragon blush. While the novices dive into the pile like kids in a candy store, Gerki pulls the veterans aside. "Plenty of loot," he whispers, "but no heart."
+  Fiona waves everyone over to the pedestal. Carved into the stone are images of a regal elven queen and that same stylized heart symbol. A dark staircase leads even deeper into the earth.
+  "Hey, kids!" Gerki calls out to the novices, who are currently draping themselves in cursed-looking necklaces and crowns. "You look lovely in your tomb-jewelry. We’re heading down. Stay out of trouble, okay?"
+  The four of them are too busy counting gold to do much more than wave a distracted goodbye. Leaving your apprentices to their spoils, your party descends into the cool, silent dark beneath the pyramid.`,
     },
     reinforcements: [
       { title: 'Reinforcements 1', full: 'Fortunately, the mechanical grinding noise coming from behind the walls finally stops. Unfortunately, more defenders spring forth to put a stop to your tomb raiding!' },
@@ -1159,7 +1295,11 @@ export const chapters: Chapter[] = [
   A swarm of scarab beetles floods the room, crawling up the walls and the bars of the portcullis. Behind them come several scorpions that are as large as horses, their stingers gleaming wetly with potent venom.
   Last come a group of stone mages, their rough-hewn faces truly nightmarish in the chamber’s amber light.
   “You will fall here, interlopers!” booms one of the mages. “Your bones shall decorate the protector’s crypt!”`,
-      compact: 'Chapter 19 prologue compact: Armor faces the cellar.',
+      compact: `The maze was a tedious trudge of "left turns only," dead ends, and Gog accidentally crushing Eve's toes. But the monotony shattered when you descended a spiraling, moisture-slicked staircase into a truly ancient sub-level.
+  Amber light from floating glass spheres reveals flaking frescoes and the unmistakable, rhythmic rasp of metal on stone. Then, the chamber erupts.
+  "Defilers! Interlopers!" a voice booms, echoing through the damp air.
+  Before you can orient yourselves, stone portcullises slam down, trapping your party in a killing jar. A tide of scarab beetles pours through the bars, followed by scorpions the size of warhorses and a coven of Stone Mages with faces like jagged rock.
+  "None are worthy to stand before the Protector!" the lead mage roars, raising a hand to command the stone. "Your bones shall decorate the crypt!"`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -1174,7 +1314,12 @@ export const chapters: Chapter[] = [
   “Talk about Protector! What that mean?!”
   “I’m afraid I don’t know,” says Deirdre. “And I’m also afraid that we’re about to find out…”
   “Deirdre no be afraid. Gog protect Deirdre from Protector.” Gog smashes one massive fist into one massive open hand for emphasis. “Gog protect all friends from Protector!”`,
-      compact: 'Chapter 19 epilogue compact: Armor rests, helm tilted.',
+      compact: `The mages and giant scorpions are finally broken, their stone bodies shattered and their venomous stingers stilled. As the heavy doors ahead grind open, the surviving scarab beetles skitter away, their shells glinting in the gloom.
+  "Follow those scarabs!" Zot commands, as Pooky leaps from his shoulder to lead the chase.
+  "Why?" Fiona asks, wiping ichor from her blade.
+  "Because they’re retreating to their master," Zot explains. "We follow the failure back to its source."
+  As the party races deeper into the complex, Gog leans toward Deirdre. "Deirdre hear stone wizards talk? Talk about 'Protector.' What that mean?"
+  "I don't know, Gog," she replies, her hand tightening on her holy symbol. "But I’m afraid we’re about to find out."`,
     },
   },
   {
@@ -1203,7 +1348,12 @@ export const chapters: Chapter[] = [
   Amundyr raises her hands, and baleful magical flames erupt from her fingertips. “I will not be lectured by mortals, especially not by mortals who would dare to take the treasure that was entrusted to me ages ago!
   “Now, intruders,” shouts Amundyr, “like countless others before you, like countless others who will come after you. You. Shall. FALL!”
   A chorus of skittering and scuttling noises issues from the doorways behind Amundyr. You run toward the obelisk, trying to close the distance between you and the ancient elf. Before you can reach her, two portcullises slam shut, blocking your way as Amundyr’s insectoid - and arachnoid - minions attack.`,
-      compact: 'Chapter 20 prologue compact: Violet candles lean kitchen-ward.',
+      compact: `You’ve reached the bedrock of the world. In this massive, fire-lit vault, the Heart of the Protector pulses above a golden obelisk, casting a rhythmic red glow over the bleached bones of those who failed before you.
+  Then, she emerges: Amundyr the Cursed. A mummy of regal elven grace, swaddled in ancient linen and crowned with a jewel-encrusted headdress. Her presence is a physical weight, ancient and suffocating.
+  "What do you want?" she asks, her voice like dry parchment.
+  Zot, ever the academic, manages to turn a life-or-death confrontation into a faculty meeting. When Amundyr threatens them with "insectoid minions," Zot can't resist a correction. "And arachnoid," he mutters, sparking a heated debate on taxonomy with a thousand-year-old lich-queen.
+  "I will not be lectured by mortals!" Amundyr shrieks, her patience finally snapping. "You. Shall. FALL!"
+  With a wave of her bandaged arms, portcullises slam down, separating you from the Heart. From the shadows behind her, the true swarm arrives: thousands of hissing scarabs and scorpions the size of wagons.`,
     },
     partTwo: {
       title: 'Part 2',
@@ -1221,7 +1371,11 @@ export const chapters: Chapter[] = [
   This is small comfort to you, as Amundyr estures in frustration at the obelisk and ulverizes it with a single word.
   “NO MORE FUN AND GAMES, INTERLOPERS!” she roars. “TIME TO DIE!”
   The three statues surrounding the now- estroyed obelisk step down from their pedestals, eady to fight alongside their pharoah.`,
-      compact: ``,
+      compact: `Amundyr’s laughter was cut short by a sight she never expected. While she was busy monologuing and trading spells with you, the novice adventurers—decked out in their looted crowns and necklaces—had snuck into the chamber behind her.
+  With a desperate shimmy, Artin snatched the Heart of the Protector right off its perch!
+  "NO!" Amundyr shrieked, a sound that nearly sent Artin tumbling to his doom. He bobbled the glowing Heart like a hot coal before Pherry and Runa caught both him and the treasure. Thamart, showing more backbone than ever before, threw up a shimmering force field that barely deflected Amundyr’s necrotic wrath as the kids bolted back toward the surface with the prize.
+  But the battle isn't over. Without the Heart to anchor her, Amundyr has undergone a terrifying metamorphosis. The room’s fire pots turned ice-blue as she shed centuries of undeath, her form growing taller and radiating a sapphire glow. She is now a living avatar of apocalyptic rage—though you notice her new, powerful joints are creaking and cracking under the strain of her own unstable magic.
+  "NO MORE FUN AND GAMES!" she roars, pulverizing the stone obelisk with a single word. Beside her, three massive guardian statues step down to join the fray.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -1231,7 +1385,9 @@ export const chapters: Chapter[] = [
   “Kill them, my children!” screams Amundyr.
   “Kill them all!” you push forward, eager to defend the young adventurers from Amundyr’s deadly wrath. The novices gather themselves together and hustle back the way they came, the Heart clutched protectively between them. As they flee back toward the surface, you muster what strength and energy you have left and face your foes. The flames in the fire pots suddenly change from a warm orange to a cold blue, matching a sudden change of temperature in the room. Amundyr herself begins glowing with a sparkling sapphire radiance. Her body regenerates before your eyes, centuries of undeath pouring like water off of her shoulders, until she appears as vital and powerful as she must have in life. As amundyr regenerates, you can feel some of your own strength fading. Amundyr grows taller as well, and her eyes burn brightly with apocalyptic rage. Though she seems far mightier and more terrifying than before, you note that subtle cracks have appeared in her otherwise fresh and healthy skin, and her joints creak under the increased burden of both her larger size and magical energy. This is small comfort to you, as Amundyr gestures in frustration at the obelisk and pulverizes it with a single word.
   “NO MORE FUN AND GAMES, iNTERLOPERS!” she roars. “TIME TO DIE!” the three statues surrounding the now- destroyed obelisk step down from their pedestals, ready to fight alongside their pharoah.`,
-      compact: 'Chapter 20 epilogue compact: Candles out; warmth lingers.',
+      compact: `Amundyr’s transformation is a sight of terrifying beauty. The sapphire radiance illuminates every crack in the chamber walls as she sheds eons of decay to become a giantess of living, breathing magic. But as she grows, the sound of her "new" bones grinding against each other is like tectonic plates shifting.
+  "TIME TO DIE!" she screams, her voice vibrating in your very marrow.
+  The three guardian statues move with surprising speed, their stone fists whistling through the air. You are weakened, your stamina siphoned away to fuel her rebirth, but you have one advantage: the Heart is gone, and Amundyr’s new body is a vessel too small for the power she’s trying to hold.`,
     },
   },
   {
@@ -1272,7 +1428,11 @@ export const chapters: Chapter[] = [
   A moment later, you can just make out a dust cloud on the horizon. It grows larger, clearer, and soon you can make out two individuals on horseback. They are riding with reckless abandon, urging their mounts to truly destructive speeds to escape the Barren Wastes as quickly as possible.
   The rider in the rear, Thamart, turns in his saddle as you approach. He shouts a warning to pherry, who is just ahead of him. She looks back at your party, a grim expression on her face, and gives her steed a few savage kicks. The horse obeys as well as it can, but it is clearly struggling beneath the weight of its rider and the large, roundish lump in Pherry’s saddlebag.
   The scorpions zoom, arrow-swift, at the two fleeing adventurers. Thamart glances back at you, realizes the gap between your two groups is diminishing rapidly, and raises one hand in a familiar, mystical gesture…`,
-      compact: 'Chapter 21 prologue compact: A dream of a scale and debt.',
+      compact: `The celebration of victory vanished the moment you reached the surface. The camp was a nightmare of silence and blood. Artin lay dead, his throat cut with cold precision. Runa, slumped in the ruins of a tent, clutched a mortal stomach wound, her armor scorched by treachery.
+  "Pherry... Thamart," Runa gasped, pointing a bloodied finger eastward. "They attacked... took the Heart."
+  The "novices" weren't idiots; they were infiltrators. While you fought the Queen, they were waiting for the perfect moment to steal the prize for their true master. Amundyr’s indifferent mask fractured into a snarl of command. She didn't care about your grief—only her charge. At her gesture, the sands heaved, and several giant scorpions burrowed to the surface.
+  "Mount my pets," Amundyr hissed. "Retrieve the Heart by any means necessary."
+  Now, you are hurtling across the desert on the backs of chitinous nightmares. The speed is terrifying, the wind whipping past as the scorpions close the distance in minutes. Ahead, two riders are pushing their horses to the breaking point. Thamart looks back, sees the skittering horrors gaining on him, and begins to weave a spell.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -1299,7 +1459,12 @@ export const chapters: Chapter[] = [
   “This is why you should look at things like an illusionist does,” says Eve, winking at Zot. “Nothing is ever as it seems.”
   “Says the illusionist who also got tricked,” snarks Fiona.
   “Enough,” says Amundyr. “Go. Now!”`,
-      compact: 'Chapter 21 epilogue compact: Dream smoke at dawn.',
+      compact: `The pursuit ended in blood on the hardpan. Thamart lay broken in the dust, but Pherry still had enough spite to laugh. As you surrounded her, she slid Thamart’s Collegium ring onto her own finger.
+  "Artin wouldn't leave well enough alone," she spat, clutching the Heart. "He wanted to go back and save your lousy hides, so I cut his damn throat." She looked up with a jagged smile. "You think you've got me? Your wizards weakened the anti-teleport field when they broke the barrier. And this? This is a Ring of Teleportation."
+  In a flash of purplish light, she vanished.
+  You returned to camp to face Amundyr’s rigid, icy wrath. The truth was bitter: you hadn't stopped Longmont; you had hand-delivered him the prize.
+  "You will fix this," Amundyr commanded, her voice like grinding stone. "Find the Heart. Punish the thieves. Return it to me."
+  "We will," Deirdre promised, her cheer replaced by a cold, sharp resolve. Even Runa, pale and bandaged, struggled to her feet to join you. The "novices" were gone, the Heart was in the wind, and the Vice-Chancellor’s endgame had officially begun.`,
     },
   },
   {
@@ -1364,7 +1529,11 @@ export const chapters: Chapter[] = [
   “We kill it.”
   “Challengers already?!” shouts the demon, oaring with laughter. “How delightful. You hall be the first to fall in our conquest of this iserable realm.”
   He stomps a huge foot upon the floor. You all ive for cover as sections of the floor ignite in earing red flame. The infernal heat drives you oward the only sections of floor that are safe o stand on…and into the path of the demon’s ummoned creatures.`,
-      compact: 'Chapter 22 prologue compact: Moss writes names.',
+      compact: `Back in Greyport, the news of the theft hit like a physical blow. Grand Cleric Ohava was "peeved" would be an understatement—she was livid. But as the shock subsided, she revealed the true stakes: The Obsidian Door wasn't just a myth; it was a scar on the world held shut by the Heart of the Protector and Amundyr’s ancient sacrifice. If the Heart is used as a key, the Stygian Expanse will spill into your realm.
+  Following Ohava’s lead, the search shifted to the Skyanvil Mountains. While the mages of the Collegium and the priests of the Great Temple searched other sectors, your party delved into the deep dwarven ruins.
+  The search was dry work until Gog spotted a Magma Golem. Following it led you to a massive hexagonal chamber where a swirling magical nexus pulsed with unnatural heat. Then, a roar echoed off the stones as a Demon Lord, wreathed in baleful flames and brandishing a whip and sword, stepped through the portal.
+  "Challengers already?!" the demon laughed, lashing his whip and igniting the very floor. "You shall be the first to fall in our conquest!"
+  The floor is turning into a lake of fire, forcing you into a tight, safe zone—right into the waiting ranks of magma golems.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -1385,7 +1554,9 @@ export const chapters: Chapter[] = [
   Gerki pulls a small drinking horn out of one of the concealed pouches in his coat. He holds the large end to his lips, relaying everything that Zot just said. The horn glows briefly and vibrates once, at which point Gerki holds the small end up to his ear, listening.
   “They’re on their way.”
   “We should be, too,” says Zot. “Let’s put a stop to this nonsense once and for all.”`,
-      compact: 'Chapter 22 epilogue compact: Moss gone; ink remains.',
+      compact: `The Avatar of Slaughter is gone, consumed by its own master’s blackflame after a pathetic plea for mercy. The nexus has vanished, leaving only the stench of sulfur and the unsettling realization that your magic is failing you.
+  "I should have sensed that demon miles away," Eve mutters, frustrated. Zot agrees; some force—perhaps the Heart itself—is masking the local reality. But where magic fails, old-fashioned scouting succeeds. Gerki, ever the "feeble pleb," points toward the tunnel the golem emerged from.
+  After a quick update to the other teams via Gerki's enchanted communication horn, the word is clear: converge on the eastern tunnels. The hunt for the Obsidian Door and the treacherous Longmont is nearing its end.`,
     },
   },
   {
@@ -1437,17 +1608,23 @@ export const chapters: Chapter[] = [
   “Oh, bring it on, girl,” snarls Fiona, diving for her sword.
   “Scatter!” says Gerki, pointing over at the ritual circle. “Demonfire incoming!”
   You wheel away from one another and spread out, presenting smaller and more widely spaced targets for the incoming barrage of hellfire. Words of magic spells leap to your lips and weapons find your ready hands as you prepare to engage in another desperate battle.`,
-      compact: 'Chapter 23 prologue compact: Cat hisses at the floorboards.',
+      compact: `The tension in the cavern is thick enough to choke on. Between Longmont’s tedious villain monologue, the infernal bickering of the transitioning demons, and Pherry’s bloodied nose, the diplomatic phase of this mission is officially over.
+  Fiona’s headbutt didn't just break Pherry’s nose; it broke the stalemate. As Longmont and his inner circle retreat deeper into the caverns to finalize the ritual at the Obsidian Door, he leaves you to the mercies of his "agent" and the half-solid horrors in the ritual circle.
+  Pherry, eyes watering and voice nasal with rage, isn't playing the "earnest novice" anymore. She’s a professional killer who feels she has nothing left to lose but her contract. Meanwhile, the demons in the circle have finally found their footing in our reality, and they are hungry.`,
     },
     epilogue: {
       title: 'Epilogue',
       full: `Fiona sheathes her sword so hard that the metallic ring of hilt on scabbard echoes sharply around the cave.
-“Fi?” ventures Gerki. “You okay?”
-“No,” replies Fiona, as she stalks across the cavern in the direction that Longmont has fled. “We’ve got a job to do.”
-With that, she walks off into the darkness.
-“Gog not let Fiona go alone,” says gog, jutting out his tusks in an expression of determination.
-“We’re not going to let her go on alone either, big guy,” says Gerki. He looks in the direction that Fiona went, but there is nothing but darkness there now. “C’mon.”`,
-      compact: 'Chapter 23 epilogue compact: Cat naps; boards quiet.',
+  “Fi?” ventures Gerki. “You okay?”
+  “No,” replies Fiona, as she stalks across the cavern in the direction that Longmont has fled. “We’ve got a job to do.”
+  With that, she walks off into the darkness.
+  “Gog not let Fiona go alone,” says gog, jutting out his tusks in an expression of determination.
+  “We’re not going to let her go on alone either, big guy,” says Gerki. He looks in the direction that Fiona went, but there is nothing but darkness there now. “C’mon.”`,
+      compact: `Fiona sheathes her sword with a sharp, metallic ring that echoes through the silence.
+  "Fi? You okay?" Gerki asks cautiously.
+  "No," she snaps, already stalking into the darkness where Longmont vanished. "We've got a job to do."
+  "Gog not let Fiona go alone," the half-ogre grunts, jaw set in determination.
+  "Neither are we, big guy," Gerki mutters, peering into the gloom. "C'mon."`,
     },
   },
   {
@@ -1505,7 +1682,14 @@ With that, she walks off into the darkness.
   “You fools don’t know when to quit!” he ays, laughing. “You are too late! Far, far too ate! For you see, the last key has just been urned! In moments, the door will open, and he demons from the Stygian Expanse will be ree and entirely under my command. First, Greyport shall fall to me! Then the neighboring ingdoms! Then the world! All knees will bend o me! All rulers will grovel before me!”
   “Seven out of ten for that performance,” niffs Eve. Then she turns to you and sighs, her ace falling. “He may be right, though. It may ctually be too late this time.”
   “Like hell it is,” shouts Fiona. “CHARGE!”`,
-      compact: 'Chapter 24 prologue compact: Thirteen chimes at noon.',
+      compact: `The air grows heavy with the stench of the Stygian Expanse as you find Fiona standing over two defeated cultists. She’s found a tattered map: the ritual circles you've been breaking are nodes in a massive web designed to weaken the final seals of the Obsidian Door.
+  "How many rituals are left?" Gerki asks as the tunnels shudder with power.
+  "Somewhere between 'some' and 'one,'" Eve replies grimly.
+  You reach the cavern's center, but find only a solid stone wall. While Zot and Eve struggle to detect any magic, Pooky—fueled by his own chaotic nature—simply runs full-tilt into the rock and vanishes. It’s a masterwork illusion: solid to the touch and invisible to spells. Only by combining Eve’s arcane power with Deirdre’s divine light does the wall finally crumble.
+  Beyond lies the true nightmare. A massive, castle-sized door of polished obsidian pulses with a sickly violet light. Longmont stands before it, cackling as the final ritual ends.
+  "You are too late!" he bellows. "The last key has turned! The demons are mine to command, and the world will grovel at my feet!"
+  "Seven out of ten for the speech," Eve sighs, "but he might be right."
+  "Like hell he is," Fiona roars. "CHARGE!"`,
     },
     partTwo: {
       title: 'Part 2',
@@ -1522,7 +1706,11 @@ With that, she walks off into the darkness.
   The thing that was once Longmont strides oward you. He stares down at you with eyes hat are spread all around his demonic head, nd opens his giant misshapen maw.
   “Holy…” whispers Deirdre.
   The giant mouth screams, drowning out the ollowing word.`,
-      compact: ``,
+      compact: `Longmont, battered and deserted by his cultists, finally snaps. Ignoring Zot’s plea for reason, he bellows a final, desperate prayer to the Lords of the Pit.
+  "I WILL SHOW YOU MADNESS!"
+  The Obsidian Door creaks open a hair’s breadth, and tongues of violet hellfire lash out. They engulf Longmont and his remaining lackeys, melting their flesh and knitting it back together into screaming, multi-limbed mockeries of life.
+  The creature that was once the Vice-Chancellor towers over you now—a mountain of livid flesh, vestigial horns, and a dozen eyes scattered across a distorted skull. It opens a cavernous, jagged maw and lets out a reality-shaking shriek.
+  "Holy..." Deirdre whispers, her voice lost in the demon’s roar.`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -1543,7 +1731,11 @@ With that, she walks off into the darkness.
   Ohava and Darvishon’s groups pour into the cavern. The clerics of the Great Temple heal your wounds and use the rest of their divine energies to reinforce Deirdre’s shield, while the wizards of the Collegium begin prepping spells and setting up their own magical defenses.
   Ohava stares at the Heart of the Protector, now clutched tightly in her hands, and sends a whispered prayer winging to the four gods of greyport. “I can use the Heart to close the door and seal it,” she says, favoring you all with a calm and resolute gaze. “All you need to do is hold off legions of demons.”
   “Sounds easy,” says Gerki, with a wry smile.`,
-      compact: 'Chapter 24 epilogue compact: Silence and hanging mugs.',
+      compact: `The demon-Longmont sags into a heap of leaking ichor, his promises of power dissolving with his flesh. But the victory is short-lived. A sudden explosion of hellfire blasts the Obsidian Door wide open, incinerating the surrendering cultists in an instant.
+  Only Deirdre’s white-knuckled prayer holds back the heat, her holy barrier the only thing between you and the Stygian Expanse. Beyond the threshold, a crimson horizon reveals an army of demons already on the march.
+  Darvishon and Ohava burst into the cavern with the full might of the Collegium and the Great Temple behind them. Panic flares until Gerki dives waist-deep into the sludge of Longmont’s remains, triumphantly pulling out the untainted Heart of the Protector.
+  Ohava grips the relic, her gaze resolute. "I can use this to seal the door forever," she says over the roar of the abyss. "All you need to do is hold off the legions."
+  Gerki wipes slime from his sleeve and offers a wry smile. "Sounds easy."`,
     },
   },
   {
@@ -1570,7 +1762,10 @@ With that, she walks off into the darkness.
   “I’m not,” says Eve, and even her careful façade of sarcasm cannot keep the quaver from her voice.
   “Ready or not,” says Zot, as magic arcs from his hands. “Here they come!”
   The Obsidian Door moves a few more inches, but it is not nearly enough. The first demon—a great, hulking thing with weapons in each hand—stomps into the cavern and roars. In the confined space, the sound is like the rolling crash of thunder.`,
-      compact: 'Chapter 25 prologue compact: Rumor of a heartfire below.',
+      compact: `The divine barrier shattered like glass, and the initial swarm of winged demons has already spiraled upward toward the surface. Darvishon and the other clerics have raced off to protect Greyport, leaving only your party to stand between Ohava and the rising tide of the Styx.
+  Ohava kneels, lifting the Heart of the Protector. As she chants, the withered organ begins to beat with a warm, rhythmic white light. The massive Obsidian Door groans, inching shut, but the demonic vanguard is already here.
+  A hulking brute of a demon, bristling with jagged steel, stomps into the cavern. Its roar is a physical blow, shaking dust from the ceiling. Behind it, the silhouettes of a thousand more wait for their turn to spill into your world.
+  "Ready or not," Zot says, his hands sparking with desperate power. "Here they come!"`,
     },
     epilogue: {
       title: 'Epilogue',
@@ -1604,7 +1799,17 @@ With that, she walks off into the darkness.
   “Yes?” she says, her voice thick with emotion. “What is it?”
   You watch as the life slowly comes back into ohava’s face. Her lips pull back in a small, sly smile.
   “Drinks are on you tonight.”`,
-      compact: 'Chapter 25 epilogue compact: Warmth lingers after rumor.',
+      compact: `The demonic monolith shatters, crushing the vanguard beneath its unfathomable weight. With the Stygian sorcery broken, the Obsidian Door finally obeys Ohava’s command, groaning shut.
+  "Hurry!" Ohava cries, her voice failing.
+  The gap shrinks to mere inches. In a final act of heroism, Gog throws his massive frame against the stone, straining every tendon to hold the portal open. "GO… NOW!"
+  You scramble through the closing crack, shedding buttons and cloth to reach the mortal side. As the door nears its frame, Zot touches Gog’s hand and magically teleports the half-ogre through the stone just as the Door slams shut with a world-shaking BOOM.
+  For a moment, there is only the sound of heavy breathing. Then, Gog reappears in a shower of sparks, sheepish and grinning. "Hi!"
+  The celebration is cut short as Deirdre rushes to Ohava’s side. The Grand Cleric lies prone, her hand resting on the now-dark and lifeless Heart.
+  "Is she…?" Fiona whispers.
+  Ohava’s eyes flutter open. She looks at Deirdre, a sly, weak smile touching her lips. "I feel so light," she murmurs. "The gods call to me... we have done great work today."
+  Deirdre leans in, ear to the Grand Cleric's lips, bracing for a final, holy benediction.
+  "Yes?" Deirdre chokes out. "What is it?"
+  Ohava’s smile widens just a fraction. "Drinks are on you tonight."`,
     },
   },
 ]
