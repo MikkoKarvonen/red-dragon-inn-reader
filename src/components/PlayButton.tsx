@@ -2,10 +2,11 @@ import { useAudioPlayer } from '../hooks/useAudioPlayer'
 
 interface PlayButtonProps {
     audioSrc: string | null
+    playbackRate?: number
     className?: string
 }
 
-export function PlayButton({ audioSrc, className = '' }: PlayButtonProps) {
+export function PlayButton({ audioSrc, playbackRate = 1, className = '' }: PlayButtonProps) {
     const getAudioPath = (src: string | null): string | null => {
         if (!src) return null
         // If it's already a full URL or absolute path, return as is
@@ -17,7 +18,7 @@ export function PlayButton({ audioSrc, className = '' }: PlayButtonProps) {
     }
 
     const audioPath = getAudioPath(audioSrc)
-    const { play, isPlaying, isLoading, error } = useAudioPlayer(audioPath)
+    const { play, isPlaying, isLoading, error } = useAudioPlayer(audioPath, playbackRate)
 
     const handleClick = () => {
         play()
@@ -55,8 +56,8 @@ export function PlayButton({ audioSrc, className = '' }: PlayButtonProps) {
             onClick={handleClick}
             disabled={!audioPath || isLoading}
             className={`inline-flex items-center justify-center rounded-lg px-3 py-1.5 text-xs font-medium transition-colors ${isPlaying
-                    ? 'bg-amber-500 text-white hover:bg-amber-600'
-                    : 'bg-slate-800 text-amber-300 hover:bg-slate-700 border border-slate-700'
+                ? 'bg-amber-500 text-white hover:bg-amber-600'
+                : 'bg-slate-800 text-amber-300 hover:bg-slate-700 border border-slate-700'
                 } ${!audioPath || isLoading ? 'opacity-50 cursor-not-allowed' : ''} ${className}`}
             title={isPlaying ? 'Pause audio' : 'Play audio'}
         >

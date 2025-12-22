@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 
-export function useAudioPlayer(audioSrc: string | null) {
+export function useAudioPlayer(audioSrc: string | null, playbackRate: number = 1) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
     const [error, setError] = useState<string | null>(null)
@@ -17,6 +17,13 @@ export function useAudioPlayer(audioSrc: string | null) {
             }
         }
     }, [audioSrc])
+
+    useEffect(() => {
+        // Update playback rate when it changes
+        if (audioRef.current) {
+            audioRef.current.playbackRate = playbackRate
+        }
+    }, [playbackRate])
 
     const play = async () => {
         if (!audioSrc) {
@@ -41,6 +48,7 @@ export function useAudioPlayer(audioSrc: string | null) {
             setError(null)
 
             const audio = new Audio(audioSrc)
+            audio.playbackRate = playbackRate
             audioRef.current = audio
             currentSrcRef.current = audioSrc
 
@@ -48,7 +56,7 @@ export function useAudioPlayer(audioSrc: string | null) {
                 setIsLoading(false)
             })
 
-            audio.addEventListener('error', (e) => {
+            audio.addEventListener('error', () => {
                 setIsLoading(false)
                 setIsPlaying(false)
                 setError('Failed to load audio file')

@@ -20,6 +20,7 @@ const getAudioPath = (chapterNumber: number, sectionType: 'prologue' | 'epilogue
 function App() {
   const [selectedChapter, setSelectedChapter] = useState(chapters[0]?.number ?? 1)
   const [compact, setCompact] = useState(false)
+  const [playbackSpeed, setPlaybackSpeed] = useState(1)
 
   const chapter = chapters.find((c) => c.number === selectedChapter) ?? chapters[0]
 
@@ -57,21 +58,38 @@ function App() {
               </select>
             </div>
 
-            <label className="flex items-center gap-3 text-sm text-slate-200">
-              <span className="font-medium text-amber-200">Compact Prologue & Epilogue</span>
-              <button
-                type="button"
-                aria-pressed={compact}
-                onClick={() => setCompact((prev) => !prev)}
-                className={`relative inline-flex h-6 w-11 items-center rounded-full transition ${compact ? 'bg-amber-500' : 'bg-slate-700'
-                  }`}
-              >
-                <span
-                  className={`inline-block h-5 w-5 transform rounded-full bg-white shadow transition ${compact ? 'translate-x-5' : 'translate-x-1'
+            <div className="flex flex-col md:flex-row gap-4 md:items-end">
+              <div className="flex flex-col gap-2">
+                <label className="text-sm text-slate-300">Playback speed</label>
+                <select
+                  className="w-full md:w-32 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-100 px-3 py-2 focus:border-amber-400 focus:ring-2 focus:ring-amber-400/50 outline-none"
+                  value={playbackSpeed}
+                  onChange={(event) => setPlaybackSpeed(Number(event.target.value))}
+                >
+                  <option value={1}>1x</option>
+                  <option value={1.25}>1.25x</option>
+                  <option value={1.5}>1.5x</option>
+                  <option value={1.75}>1.75x</option>
+                  <option value={2}>2x</option>
+                </select>
+              </div>
+
+              <label className="flex items-center gap-3 text-sm text-slate-200">
+                <span className="font-medium text-amber-200">Compact Prologue & Epilogue</span>
+                <button
+                  type="button"
+                  aria-pressed={compact}
+                  onClick={() => setCompact((prev) => !prev)}
+                  className={`relative inline-flex h-6 w-11 items-center rounded-full transition ${compact ? 'bg-amber-500' : 'bg-slate-700'
                     }`}
-                />
-              </button>
-            </label>
+                >
+                  <span
+                    className={`inline-block h-5 w-5 transform rounded-full bg-white shadow transition ${compact ? 'translate-x-5' : 'translate-x-1'
+                      }`}
+                  />
+                </button>
+              </label>
+            </div>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -85,12 +103,22 @@ function App() {
               <article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
                 <div className="flex items-start justify-between gap-4 mb-2">
                   <h3 className="text-lg font-semibold text-amber-300">{chapter.prologue.title}</h3>
-                  <PlayButton audioSrc={getAudioPath(chapter.number, 'prologue', compact)} />
+                  <PlayButton audioSrc={getAudioPath(chapter.number, 'prologue', compact)} playbackRate={playbackSpeed} />
                 </div>
                 <p className="mt-2 text-slate-200 leading-relaxed whitespace-pre-wrap">
                   {getSectionText(chapter.prologue, compact)}
                 </p>
               </article>
+
+              {chapter.partTwo && (<article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
+                <div className="flex items-start justify-between gap-4 mb-2">
+                  <h3 className="text-lg font-semibold text-amber-300">{chapter.partTwo.title}</h3>
+                  <PlayButton audioSrc={getAudioPath(chapter.number, 'prologue', compact)} playbackRate={playbackSpeed} />
+                </div>
+                <p className="mt-2 text-slate-200 leading-relaxed whitespace-pre-wrap">
+                  {getSectionText(chapter.partTwo, compact)}
+                </p>
+              </article>)}
 
               <div className="space-y-4">
                 <div className="flex items-center gap-2 text-sm text-amber-200 font-semibold">
@@ -105,7 +133,7 @@ function App() {
                     >
                       <div className="flex items-start justify-between gap-4 mb-2">
                         <h4 className="text-base font-semibold text-slate-100">{section.title}</h4>
-                        <PlayButton audioSrc={getAudioPath(chapter.number, 'reinforcements', compact, index)} />
+                        <PlayButton audioSrc={getAudioPath(chapter.number, 'reinforcements', compact, index)} playbackRate={playbackSpeed} />
                       </div>
                       <p className="mt-2 text-slate-300 leading-relaxed">{section.full}</p>
                     </article>
@@ -116,7 +144,7 @@ function App() {
               <article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
                 <div className="flex items-start justify-between gap-4 mb-2">
                   <h3 className="text-lg font-semibold text-amber-300">{chapter.epilogue.title}</h3>
-                  <PlayButton audioSrc={getAudioPath(chapter.number, 'epilogue', compact)} />
+                  <PlayButton audioSrc={getAudioPath(chapter.number, 'epilogue', compact)} playbackRate={playbackSpeed} />
                 </div>
                 <p className="mt-2 text-slate-200 leading-relaxed whitespace-pre-wrap">
                   {getSectionText(chapter.epilogue, compact)}
