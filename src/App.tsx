@@ -120,26 +120,28 @@ function App() {
                 </p>
               </article>)}
 
-              <div className="space-y-4">
-                <div className="flex items-center gap-2 text-sm text-amber-200 font-semibold">
-                  <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
-                  Reinforcements
+              {chapter.reinforcements && (
+                <div className="space-y-4">
+                  <div className="flex items-center gap-2 text-sm text-amber-200 font-semibold">
+                    <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
+                    Reinforcements
+                  </div>
+                  <div className="grid gap-4 md:grid-cols-2">
+                    {chapter.reinforcements.map((section, index) => (
+                      <article
+                        key={section.title}
+                        className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg"
+                      >
+                        <div className="flex items-start justify-between gap-4 mb-2">
+                          <h4 className="text-base font-semibold text-slate-100">{section.title}</h4>
+                          <PlayButton audioSrc={getAudioPath(chapter.number, 'reinforcements', compact, index)} playbackRate={playbackSpeed} />
+                        </div>
+                        <p className="mt-2 text-slate-300 leading-relaxed">{section.full}</p>
+                      </article>
+                    ))}
+                  </div>
                 </div>
-                <div className="grid gap-4 md:grid-cols-2">
-                  {chapter.reinforcements.map((section, index) => (
-                    <article
-                      key={section.title}
-                      className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg"
-                    >
-                      <div className="flex items-start justify-between gap-4 mb-2">
-                        <h4 className="text-base font-semibold text-slate-100">{section.title}</h4>
-                        <PlayButton audioSrc={getAudioPath(chapter.number, 'reinforcements', compact, index)} playbackRate={playbackSpeed} />
-                      </div>
-                      <p className="mt-2 text-slate-300 leading-relaxed">{section.full}</p>
-                    </article>
-                  ))}
-                </div>
-              </div>
+              )}
 
               <article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
                 <div className="flex items-start justify-between gap-4 mb-2">

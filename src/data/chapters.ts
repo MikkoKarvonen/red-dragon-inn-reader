@@ -10,7 +10,7 @@ export type Chapter = {
   prologue: ChapterSection
   partTwo?: ChapterSection
   epilogue: ChapterSection
-  reinforcements: ChapterSection[]
+  reinforcements?: ChapterSection[]
 }
 
 export const chapters: Chapter[] = [
@@ -287,11 +287,8 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 5 epilogue compact: Key stored; lock unknown.',
     },
     reinforcements: [
-      { title: 'Deploy', full: 'The laughing crab king disappears into the cavern. You are confronted by massive slimes and snapping pincers standing between you and the eroding pillars.' },
-      { title: 'Reinforcements Upper Passage', full: 'The acrid smell of acid and slime hits your nose hard when this passage is opened. And the floor is moving. That’s probably not good either' },
-      { title: 'Reinforcements Lower Passage', full: 'As the gravel crumbles, you immediately duck under a volley of muck fired from the crab men guarding this passage’s acid spewing plant... animal... things?' },
-      { title: 'Reinforcements Back Passage', full: 'This chamber is massive, with the worst infestation of slime-spitting spawn coating the walls.' },
-      { title: 'The Crab King', full: 'The Crab King howls with rage as the last of the acid spitters is crushed. He blows his conch once more, summoning the deadly remnants of his horde to his side.' },
+      { title: 'Reinforcements 1', full: 'The energy wall deactivates and you press on. The unfortunate use of magic here has attracted the attention of elementals who seem to be jealously guarding a large orb on a pedestal in one corner of the room. The orb pulsates with arcane energy, and conduits along the floor indicate that it powers the entire chamber.' },
+      { title: 'Reinforcements 2', full: 'You are about to cry out when the orb suddenly goes dead. The arcane energy quickly travels through the conduits. When it reaches the barrier, there is one last crackle. The barrier disappears and everything is quiet - for a moment. On the other side of the open doorway, you hear a gravelly voice shout, “No! Our work must not be disturbed!” It seems your task is not yet finished here. New foes appear right in front of you and in the room beyond!' },
     ],
   },
   {
@@ -346,8 +343,7 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 6 epilogue compact: Salt crusts and dries.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 6 reinforcements 0: A sailor brings rope and tall tales.' },
-      { title: 'Reinforcements 1', full: 'Chapter 6 reinforcements 1: A deckhand lashes shutters tight.' },
+      { title: 'The Arcane Golem', full: 'With a thunderous crash, the lid of the silver sarcophagus is thrown from its base. A flash of brilliant electricity makes your hair stand on end as a large shape hurtles through the air and smashes to the ground beside you. When the dust clears, you see the menacing construct. Its silver shell, loosely held together, encases an orb of pure energy in its chest. As its hands open, lightning arcs between its fingers, and with a bloodcurdling scream it lashes out!' },
     ],
   },
   {
@@ -398,10 +394,6 @@ export const chapters: Chapter[] = [
   “Good,” says Gog. “Gog not like slavers!”`,
       compact: 'Chapter 7 epilogue compact: Rumbling fades to cheers.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 7 reinforcements 0: A cooper braces the barrels with iron hoops.' },
-      { title: 'Reinforcements 1', full: 'Chapter 7 reinforcements 1: A drummer keeps rhythm for the watch.' },
-    ],
   },
   {
     number: 8,
@@ -459,8 +451,8 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 8 epilogue compact: Seal broken; warning kept.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 8 reinforcements 0: A courier stays to help decipher the note.' },
-      { title: 'Reinforcements 1', full: 'Chapter 8 reinforcements 1: A scribe copies the seal for later.' },
+      { title: 'Reinforcements 1', full: 'You spot the pirate captain shouting orders from the quarterdeck. He is an ogre who seems to be among the top ten scurviest of dogs you have ever seen.' },
+      { title: 'Reinforcements 2', full: 'There are several cages on the lower deck holding the “cargo”: ogre slaves. Some look dejected at their imprisonment, but most look angry. Very angry.' },
     ],
   },
   {
@@ -521,8 +513,7 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 9 epilogue compact: Rune melts; chill remains.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 9 reinforcements 0: A frost mage seals the cracks with ice.' },
-      { title: 'Reinforcements 1', full: 'Chapter 9 reinforcements 1: A stoker feeds the hearth to fight the cold.' },
+      { title: 'Reinforcements 1', full: 'You hear a distant shout: “Guards! Intruders!” You’ll need to hurry to catch Lord Maybury before he can escape!' },
     ],
   },
   {
@@ -575,10 +566,6 @@ export const chapters: Chapter[] = [
   Zot elbows Gerki again, but the plucky thief keeps right on grinning.`,
       compact: 'Chapter 10 epilogue compact: Coin cools; hum fades.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 10 reinforcements 0: A gambler offers luck and lantern oil.' },
-      { title: 'Reinforcements 1', full: 'Chapter 10 reinforcements 1: A guard pockets the coin for safekeeping.' },
-    ],
   },
   {
     number: 11,
@@ -646,8 +633,7 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 11 epilogue compact: A nod, a warning kept.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 11 reinforcements 0: A veteran takes the watch by the door.' },
-      { title: 'Reinforcements 1', full: 'Chapter 11 reinforcements 1: A recruit listens and learns quickly.' },
+      { title: 'Reinforcements 1', full: 'You almost have enough fruit to take back to Roxana, but a certain feasting dire chicken is greatly interfering with your plans. The lowhanging fruit is gone - literally - so you will have to work harder to get the rest of what you need!' },
     ],
   },
   {
@@ -715,10 +701,6 @@ export const chapters: Chapter[] = [
   After a dramatic pause for cheering, he adds. “WELL, THIS IS ONLY THE BEGINNING!”`,
       compact: 'Chapter 12 epilogue compact: Powder locked; fuse dry.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 12 reinforcements 0: A sapper secures the kegs and marks danger.' },
-      { title: 'Reinforcements 1', full: 'Chapter 12 reinforcements 1: A runner keeps buckets of sand at hand.' },
-    ],
   },
   {
     number: 13,
@@ -802,8 +784,7 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 13 epilogue compact: The well cools down.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 13 reinforcements 0: A healer tests the water and hums softly.' },
-      { title: 'Reinforcements 1', full: 'Chapter 13 reinforcements 1: A carrier brings fresh buckets from upstream.' },
+      { title: 'Longmont Appears!', full: 'With a wave of his hand, Longmont opens the magically-sealed door. “Idiots!” he snarls at his minions. “I’ll have to take care of this turncoat myself!”' },
     ],
   },
   {
@@ -863,10 +844,6 @@ export const chapters: Chapter[] = [
   Nitrel drops the bomb back in her bag and shrugs. “Maybe, but the important thing is that it worked. And if Copperforge has an issue with that, they can bill me.”`,
       compact: 'Chapter 14 epilogue compact: Sketch stored; plans pinned.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 14 reinforcements 0: A carpenter measures beams just in case.' },
-      { title: 'Reinforcements 1', full: 'Chapter 14 reinforcements 1: An architect doodles in the margins.' },
-    ],
   },
   {
     number: 15,
@@ -943,8 +920,7 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 15 epilogue compact: Notes fade; chalk remains.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 15 reinforcements 0: A bard stays to trace every echo.' },
-      { title: 'Reinforcements 1', full: 'Chapter 15 reinforcements 1: A runner maps shortcuts for later.' },
+      { title: 'Reinforcements 1', full: 'Just as you think you have the endless slimes under control, some stragglers appear!' },
     ],
   },
   {
@@ -1004,10 +980,6 @@ export const chapters: Chapter[] = [
   “That’s great,” says Pherry, shaking Fiona’s hand. “Thank you. Thank you all!”`,
       compact: 'Chapter 16 epilogue compact: Wire coiled; tune returns.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 16 reinforcements 0: A trapper strings alarms along the stairs.' },
-      { title: 'Reinforcements 1', full: 'Chapter 16 reinforcements 1: A guard dog naps near the wire spools.' },
-    ],
   },
   {
     number: 17,
@@ -1064,10 +1036,6 @@ export const chapters: Chapter[] = [
   The four young adventurers, as well as gerki, Gog, and Fiona, enthusiastically shoot their hands up into the air.`,
       compact: 'Chapter 17 epilogue compact: Moths scatter; dust remains.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 17 reinforcements 0: A sweep clears the sills and sharpens blades.' },
-      { title: 'Reinforcements 1', full: 'Chapter 17 reinforcements 1: A watcher notes every pattern they formed.' },
-    ],
   },
   {
     number: 18,
@@ -1147,8 +1115,7 @@ export const chapters: Chapter[] = [
       compact: 'Chapter 18 epilogue compact: Wards hum then settle.',
     },
     reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 18 reinforcements 0: A warder redraws sigils with steady chalk.' },
-      { title: 'Reinforcements 1', full: 'Chapter 18 reinforcements 1: An apprentice carries extra chalk and tea.' },
+      { title: 'Reinforcements 1', full: 'Fortunately, the mechanical grinding noise coming from behind the walls finally stops. Unfortunately, more defenders spring forth to put a stop to your tomb raiding!' },
     ],
   },
   {
@@ -1209,10 +1176,6 @@ export const chapters: Chapter[] = [
   “Deirdre no be afraid. Gog protect Deirdre from Protector.” Gog smashes one massive fist into one massive open hand for emphasis. “Gog protect all friends from Protector!”`,
       compact: 'Chapter 19 epilogue compact: Armor rests, helm tilted.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 19 reinforcements 0: A smith polishes plates to a dull shine.' },
-      { title: 'Reinforcements 1', full: 'Chapter 19 reinforcements 1: A squire props the armor with fresh straps.' },
-    ],
   },
   {
     number: 20,
@@ -1270,10 +1233,6 @@ export const chapters: Chapter[] = [
   “NO MORE FUN AND GAMES, iNTERLOPERS!” she roars. “TIME TO DIE!” the three statues surrounding the now- destroyed obelisk step down from their pedestals, ready to fight alongside their pharoah.`,
       compact: 'Chapter 20 epilogue compact: Candles out; warmth lingers.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 20 reinforcements 0: A cook carries salt and stories of spice.' },
-      { title: 'Reinforcements 1', full: 'Chapter 20 reinforcements 1: A server guards the back door with a ladle.' },
-    ],
   },
   {
     number: 21,
@@ -1342,10 +1301,6 @@ export const chapters: Chapter[] = [
   “Enough,” says Amundyr. “Go. Now!”`,
       compact: 'Chapter 21 epilogue compact: Dream smoke at dawn.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 21 reinforcements 0: A seer scribbles notes between yawns.' },
-      { title: 'Reinforcements 1', full: 'Chapter 21 reinforcements 1: A guard brews coffee for the sleepless.' },
-    ],
   },
   {
     number: 22,
@@ -1432,10 +1387,6 @@ export const chapters: Chapter[] = [
   “We should be, too,” says Zot. “Let’s put a stop to this nonsense once and for all.”`,
       compact: 'Chapter 22 epilogue compact: Moss gone; ink remains.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 22 reinforcements 0: A gardener scrubs stone and hums.' },
-      { title: 'Reinforcements 1', full: 'Chapter 22 reinforcements 1: A clerk writes the names in a ledger.' },
-    ],
   },
   {
     number: 23,
@@ -1498,10 +1449,6 @@ With that, she walks off into the darkness.
 “We’re not going to let her go on alone either, big guy,” says Gerki. He looks in the direction that Fiona went, but there is nothing but darkness there now. “C’mon.”`,
       compact: 'Chapter 23 epilogue compact: Cat naps; boards quiet.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 23 reinforcements 0: A mouser sets traps with quiet focus.' },
-      { title: 'Reinforcements 1', full: 'Chapter 23 reinforcements 1: A stablehand checks the floor for gaps.' },
-    ],
   },
   {
     number: 24,
@@ -1598,10 +1545,6 @@ With that, she walks off into the darkness.
   “Sounds easy,” says Gerki, with a wry smile.`,
       compact: 'Chapter 24 epilogue compact: Silence and hanging mugs.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 24 reinforcements 0: A ringer pads the clapper with cloth.' },
-      { title: 'Reinforcements 1', full: 'Chapter 24 reinforcements 1: A runner secures the rafters above.' },
-    ],
   },
   {
     number: 25,
@@ -1663,10 +1606,6 @@ With that, she walks off into the darkness.
   “Drinks are on you tonight.”`,
       compact: 'Chapter 25 epilogue compact: Warmth lingers after rumor.',
     },
-    reinforcements: [
-      { title: 'Reinforcements 0', full: 'Chapter 25 reinforcements 0: A phoenix-touched ally carries a spark.' },
-      { title: 'Reinforcements 1', full: 'Chapter 25 reinforcements 1: A watch captain posts a double shift.' },
-    ],
   },
 ]
 
