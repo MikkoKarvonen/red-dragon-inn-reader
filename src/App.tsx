@@ -6,12 +6,12 @@ import { PlayButton } from './components/PlayButton'
 const getSectionText = (section: ChapterSection, compact: boolean) =>
   compact && section.compact ? section.compact : section.full
 
-const getAudioPath = (chapterNumber: number, sectionType: 'prologue' | 'epilogue' | 'reinforcements', compact: boolean, index?: number): string => {
+const getAudioPath = (chapterNumber: number, sectionType: 'prologue' | 'epilogue' | 'reinforcements' | 'part-2', compact: boolean, index?: number): string => {
   const chapterFolder = `chapter-${chapterNumber}`
   if (sectionType === 'reinforcements' && index !== undefined) {
     return `${chapterFolder}/reinforcements-${index}.mp3`
   }
-  if ((sectionType === 'prologue' || sectionType === 'epilogue') && compact) {
+  if ((sectionType === 'prologue' || sectionType === 'epilogue' || sectionType === 'part-2') && compact) {
     return `${chapterFolder}/${sectionType}-compact.mp3`
   }
   return `${chapterFolder}/${sectionType}.mp3`
@@ -113,7 +113,7 @@ function App() {
               {chapter.partTwo && (<article className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg">
                 <div className="flex items-start justify-between gap-4 mb-2">
                   <h3 className="text-lg font-semibold text-amber-300">{chapter.partTwo.title}</h3>
-                  <PlayButton audioSrc={getAudioPath(chapter.number, 'prologue', compact)} playbackRate={playbackSpeed} />
+                  <PlayButton audioSrc={getAudioPath(chapter.number, 'part-2', compact)} playbackRate={playbackSpeed} />
                 </div>
                 <p className="mt-2 text-slate-200 leading-relaxed whitespace-pre-wrap">
                   {getSectionText(chapter.partTwo, compact)}

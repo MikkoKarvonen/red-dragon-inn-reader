@@ -1142,7 +1142,10 @@ export const chapters: Chapter[] = [
   A beam of energy lances out of the sky, striking the barrier and illuminating it with a pearlescent glow. Portions of the barrier begin to flicker in and out of existence as you watch. Small holes appear near the peak of the magical dome, slowly widening and spreading as you look on.
   Hidden doors on the pyramid grind open slowly on sand-clogged mechanisms, letting forth a deluge of monstrous beasts into the ruined plaza. The creatures look up at the slowly-collapsing dome before directing their attention—and their rage—at the group of you arrayed outside the barrier. Letting out loud, bestial calls, they advance upon you, talons raised.
   The creatures phase effortlessly through the barrier and into the plaza. You shout your battle cries as they engage you.`,
-      compact: ``,
+      compact: `The desert trudge was a filthy, thirsty blur, fueled only by your drive to thwart Longmont. The sole joy was the novice quartet: Thamart talking shop with the wizards, Runa and Pherry swapping gore stories, and the "brooding" Artin being charmed out of his shell by Gog.
+  Finally, the horizon revealed the goal: wind-scarred monoliths and a massive, gleaming pyramid. The novices, blinded by treasure-lust, charged ahead—only to hit the invisible perimeter shield with a resonant bong, collapsing in a tangle of limbs.
+  While Deirdre patched them up, Zot and Eve analyzed the barrier. The plan: one wizard would attune to the shield's frequency to blow it open, but the process would trigger "secondary defenses."
+  As the ritual began, a beam of energy struck the dome, causing it to flicker and tear. Suddenly, sand-clogged doors on the pyramid ground open, unleashing a deluge of monstrous beasts. The creatures phased through the fading barrier, talons raised and shrieking, as you stepped forward to meet their charge.`,
     },
     epilogue: {
       title: 'Epilogue',
