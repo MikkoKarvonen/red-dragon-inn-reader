@@ -650,7 +650,7 @@ export const chapters: Chapter[] = [
   “No way, no way,” says Gerki. “Warty and I are square! Isn’t that right?”
   Fiona slams her gauntleted fist down on the table, rattling both drinks and empties. “You’d better be, because there is no way I am getting dishpan hands working off another one of your tabs, Gerki!”
   Warthorn’s smile widens during this interchange, and his cheeks take on an even brighter reddish hue than normal. He raises his hands. “No, no, it’s nothin’ like that at all. The three of us have got a little somethin’ that the lot of you can help us with.”
-  Roxana clears her throat. “That’s right! i’ve been experimenting with some new menu options out in the kitchen, you know, to liven things up for our regular clientele? I found this new recipe that I think is going to blow everyone’s boots right off, but I’m going to need some kwiiop fruit in order to cook it, and it doesn’t grow locally.”
+  Roxana clears her throat. “That’s right! I’ve been experimenting with some new menu options out in the kitchen, you know, to liven things up for our regular clientele? I found this new recipe that I think is going to blow everyone’s boots right off, but I’m going to need some kwiiop fruit in order to cook it, and it doesn’t grow locally.”
   “What’s a kwiiop fruit?” asks Deirdre. Roxana cups her hands to form a rough sphere. “They’re about this big. Mostly purple, with white striations. Hard as a coconut, but when you crack ‘em open, they have the savoriest orange-yellow pulp you’ve ever tasted. So good!”
   She pauses to wipe her mouth with one hand before continuing. “Anyway, the only trees I know of grow in a faraway land, and even then, I’m not exactly sure how to get there from here. But since you’re adventurers, I figured…”
   Gerki leans back in his chair. “Look, we’d love to help. But gathering produce isn’t something we usually do. So maybe you could find a bunch of druids or rangers or...”
@@ -724,7 +724,7 @@ export const chapters: Chapter[] = [
       full: `Fiona interrupts what would be yet another lovely, carefree night at the Red Dragon Inn by running excitedly over to your table and slapping down a tattered piece of parchment amidst all the drinks.
   “By the gods!” she says, her eyes bright and lively. “We’re going to this!”
   Zot, very gingerly, slips the piece of parchment from beneath Fiona’s splayed palm and shows it to everyone. The parchment itself is a bit curled and weathered, and seems to have been hastily torn free from the nails that affixed it to one building or another. A crude woodcut, featuring several bare-chested warriors beating one another with cudgels, is surrounded by dense pickets of blocky letters.
-  FARNSDAY! FARNSDAY! FARNSDAY! aT THE GREYPORT DWARVEN RUINS!
+  FARNSDAY! FARNSDAY! FARNSDAY! AT THE GREYPORT DWARVEN RUINS!
   THE RUMBLE IN THE RUINS!
   CHAMPIONS OF THE NORTHERN BARBARIAN CLANS DUKE IT OUT IN 1-V-1, 2-V-2, 4-V-4, CAGE MATCH, AND BATTLE ROYALE! PLUS CROWN PRINCE CORMAC’S EXHIBITION BOUT!
   8 GOLD PAYS FOR YOUR WHOLE SEAT, BUT YOU’LL ONLY NEED THE EDGE!
@@ -744,7 +744,7 @@ export const chapters: Chapter[] = [
   “This is going to be so, so good,” says Fiona, adjusting her newly-bought ale helmet on her head. She positions the downspout of the copper tube so that it is nearer to her mouth and gives it an experimental swig. “The people of the northlands are some of the best fighters around. You’re going to see a lot of really great technique today.”
   “You’ll have to explain it to me,” says Zot, who seems to be enjoying the spectacle despite himself. “One headlock looks very much like another when you’re a wizard.”
   Explosive firepots ignite to brilliance in the center of the amphitheater. A bronzed, muscular man with long, dark hair strides across the open space, light gleaming off of the gemstones set into the white, furry robe he wears. With all the noise, fire, smoke, and glittering gemstones, it takes you a moment to realize that the man is Cormac. He is accompanied by two phalanxes of well-muscled barbarians clad in furs, bones, and animal horn.
-  “Gog see Cormac,” says Gog, as the crowd gets to its feet, cheering and hooting. “There Cormac! Hello, Cormac!” gog stuffs his hand into a contraption of rigid leather and sinew that he has been stitching together for the last couple of hours. It looks like a crudely-fashioned replica of a very large fist. Painted on the side is a stick figure with large circles for arm and leg muscles, as well as a smudge around its head that is almost recognizable as a barbarian-style haircut.
+  “Gog see Cormac,” says Gog, as the crowd gets to its feet, cheering and hooting. “There Cormac! Hello, Cormac!” Gog stuffs his hand into a contraption of rigid leather and sinew that he has been stitching together for the last couple of hours. It looks like a crudely-fashioned replica of a very large fist. Painted on the side is a stick figure with large circles for arm and leg muscles, as well as a smudge around its head that is almost recognizable as a barbarian-style haircut.
   Gog raises the leather fist into the sky and howls, “CORMAC! CORMAC! COOOOORMAAAC! HIIIIIIII!”
   The spectators in the rows in front of you are almost bowled over by the force of Gog’s exclamation. Some of them turn, annoyed, only to blanche at the sight of Gog and turn back around, resolutely staring face forward.
   Cormac seems to hear Gog’s bellowing, even above the general cacophony of the crowd. His mouth splits wide, revealing a smile of bright, even teeth. He flexes, gaining the adoration of the crowd, and points directly up at where you are sitting.
@@ -757,7 +757,7 @@ export const chapters: Chapter[] = [
   The stands erupt with applause and cheers. Numerous spectators, who have evidently been waiting for this, either lift their hands into the air or leap bodily to their feet. The cries of, “pick me!” “I’ll fight you!” and “let’s do this!” echo through the crowd.
   Your party is not at all surprised that Fiona has not only stood up, but climbed up on Gog’s shoulders and has started waving her arms around and screaming. The ale sloshes out of her helmet, splattering foam and bitters everywhere.
   Zot, very calmly, places his head in his hands.
-  “Cease your cries and resume your seats!” shouts Cormac, pointing up into the stands. “I have decided who shall face me in this exhibition battle. My friends and boon companions from the Red Dragon Inn, I see you there! Well do i know your bravery and fighting spirit. Come face me in honorable combat! Let us make these old mountains shake with the fury of our blows.”
+  “Cease your cries and resume your seats!” shouts Cormac, pointing up into the stands. “I have decided who shall face me in this exhibition battle. My friends and boon companions from the Red Dragon Inn, I see you there! Well do I know your bravery and fighting spirit. Come face me in honorable combat! Let us make these old mountains shake with the fury of our blows.”
   “YES!” screams Fiona. “YES! YES!”
   “No,” says Zot, though his voice is slightly muffled by his hands.
   “C’mon, Zot!” says Fiona, climbing down off Gog. “You know you want to.”
@@ -818,7 +818,7 @@ export const chapters: Chapter[] = [
   “No no, that’s fine. That’s fine. Completely reasonable,” says Lord Maybury, looking askance at the close, windowless, and dripping walls of his cell. “How about we schedule a meeting with my liaison. All I’ll need is for someone to convey a letter I write to a dead drop location. Then I’ll need to be released on my own recognizance to…”
   Gerki shakes his head. “What do you take us for, amateurs?”
   Lord Maybury sucks on his teeth and drums his fingertips on the cold, iron bars. “No, of course not. That would be silly of me, especially since you have me at a rather steep disadvantage. How about this? You can read the letter that I write and convey it to the dead drop yourself. You can also…erm…take me into temporary custody and chaperone me to the meeting place. How about that?”
-  “If the City Guard allows it,” says Deirdre, “And if you keep your word, I don’t see why not.” fiona jabs a finger at the imprisoned noble. “And if you don’t keep your word, I’ll leave you alone with Gog for five minutes.” gog, who has folded himself up in a rather uncomfortable way to fit into the cramped holding area, shifts his weight, accidentally bangs his head against the ceiling, and snorts in irritation.
+  “If the City Guard allows it,” says Deirdre, “And if you keep your word, I don’t see why not.” Fiona jabs a finger at the imprisoned noble. “And if you don’t keep your word, I’ll leave you alone with Gog for five minutes.” Gog, who has folded himself up in a rather uncomfortable way to fit into the cramped holding area, shifts his weight, accidentally bangs his head against the ceiling, and snorts in irritation.
   “Certainly, certainly! Gods know I’m familiar with just how strong and angry ogres can be.”
   At that, Gog narrows his eyes and presents his tusks.
   “H…How about you get me a quill and some parchment?” says Lord Maybury, who is now staring at a particularly riveting crack on the ceiling.
@@ -1046,7 +1046,7 @@ export const chapters: Chapter[] = [
       title: 'Prologue',
       full: `It takes your party, and your substantial train of wagons, the better part of a day to descend into the far foothills of the western mountains. From there, it is another few hours’ journey over dry and sparsely-vegetated hill lands until you at last reach the relative flatness of the Barren Wastes. Even though the sun is setting on the distant horizon, the day’s heat still radiates from the arid expanse before you.
   Zot, not sweating at all despite still being dressed in his velvet robes, suggests that everyone rest and drink water. “We’ll start crossing once the sun is down.”
-  “Keet say desert get cold at night,” says gog, as he takes a large, lumpy sweater out of his backpack. “Gog not get it, but Gog dress warm anyway.”
+  “Keet say desert get cold at night,” says Gog, as he takes a large, lumpy sweater out of his backpack. “Gog not get it, but Gog dress warm anyway.”
   “Where did you get that sweater, Gog?” asks Eve, eyebrow raised.
   “Gog have sweater a long time,” says Gog, holding out the sweater as he favors you with a tusked smile. On closer inspection, you can see that it has clearly been knitted with love. “Mom make for Gog!”
   You hydrate, make necessary changes to your attire, and prepare to set out across the hard-packed earth once the sun is merely a glowing memory behind the horizon. Armed with a copy of Vice-Chancellor Longmont’s map, various direction-finding spells, and your knowledge of the stars, you expect that you should reach the center of the Barren Wastes… eventually.
@@ -1092,7 +1092,7 @@ export const chapters: Chapter[] = [
   Runa seems to notice something in your expressions and shoves the vellum map back inside her armor. “What are you doing out here?”
   You exchange looks with one another. Finally, Zot says. “It appears that we are going to the same place, though our purpose for going out there is to investigate some magical anomalies that we’ve been hearing about.”
   “Hey,” says Pherry, looking tentative. “If you’re going to the same place we’re going, do you want to…”
-  “Team up?” shouts an enthusiastic Fiona. “Sure, why not? The more the merrier, right? besides, you kids look like you’re just starting out on your adventuring careers, and we’d be more than happy to show you the ropes.”
+  “Team up?” shouts an enthusiastic Fiona. “Sure, why not? The more the merrier, right? Besides, you kids look like you’re just starting out on your adventuring careers, and we’d be more than happy to show you the ropes.”
   Eve mouths something that looks like, “We would?”
   Zot shrugs, but Deirdre smiles at Fiona with approval.
   “That’s great,” says Pherry, shaking Fiona’s hand. “Thank you. Thank you all!”`,
@@ -1127,13 +1127,13 @@ export const chapters: Chapter[] = [
   Fiona gestures at Deirdre. “You may want to…”
   But Deirdre is already raising up her holy symbol. “I’m on it.”
 
-  You set up camp a stone’s throw from the magical barrier. While most of you nap, Zot and eve set to work analyzing the magical barrier and casting information-gathering spells in its general direction. Eventually, they reach a conclusion about what they’ve found.
+  You set up camp a stone’s throw from the magical barrier. While most of you nap, Zot and Eve set to work analyzing the magical barrier and casting information-gathering spells in its general direction. Eventually, they reach a conclusion about what they’ve found.
   “There is a way to collapse it,” says Zot. “We think.”
   “You think?” asks Gerki.
-  “Yes,” says Zot. “In layman’s terms, either eve or I will have to attune ourselves to the barrier and match its intrinsic frequency with our own magical power. Once we can match the frequency, we will be able to overwhelm the barrier’s defensive capabilities and bring it down.”
+  “Yes,” says Zot. “In layman’s terms, either Eve or I will have to attune ourselves to the barrier and match its intrinsic frequency with our own magical power. Once we can match the frequency, we will be able to overwhelm the barrier’s defensive capabilities and bring it down.”
   “Those were layman’s terms?” says Fiona.
   “Not really,” says Eve, glancing at Zot out of the corners of her eyes. “It’s more like, ‘one of us make barrier go boom.’ But while we’re doing that, that’s all we’re going to be doing until it drops. And we’ve also discovered that trying to destroy the barrier will activate some secondary defenses.”
-  Artin’s brooding demeanor fades away. He looks around nervously. “Secondary defenses? what are those?”
+  Artin’s brooding demeanor fades away. He looks around nervously. “Secondary defenses? What are those?”
   “Unknown at this time,” says Zot. “But I surmise that they are likely summoned monsters or elementals of some sort. I’d imagine that beasts of this type are well outside your areas of experience,” he continues, looking over the quartet of adventurers. “Best that you stay well back, just in case.”
   “No arguments here,” says Artin.
   “Now then,” says Eve. “The only thing we have to do now is to decide which of us is going to be bringing down the barrier. Then we wait for the explosions. Or monsters. Or whatever.”
@@ -1158,7 +1158,7 @@ export const chapters: Chapter[] = [
   “Nice,” is all he says.
   “Yeah, yeah,” says Gerki. “We know we’re great.”
   Gerki pauses dramatically, before smiling and rubbing his hands together. “Now, who wants to go loot the monuments and tombs of a long-dead civilization and grab literally everything that’s not nailed down?”
-  The four young adventurers, as well as gerki, Gog, and Fiona, enthusiastically shoot their hands up into the air.`,
+  The four young adventurers, as well as Gerki, Gog, and Fiona, enthusiastically shoot their hands up into the air.`,
       compact: `The desert heat is forgotten as you stand before the towering, pale pyramid. The shimmering heat distortion is nothing compared to the literal shimmer of the Ancient Aegis—the spherical force field Keet warned you about.
   After patching up the bruised egos (and foreheads) of Pherry’s crew, Zot and Eve identified the solution: a Harmonic Overload. By matching the magical resonance of the shield, one of them can shatter it. However, as the shield begins to ripple like water under their chant, the "secondary defenses" make their grand entrance.
   From the pyramid's base, massive stone slabs grind open, releasing Guardian Chimera and Sand-Stalkers—beasts of jagged obsidian and shifting dunes that ignore the barrier as if it were mere mist.`,
@@ -1174,7 +1174,7 @@ export const chapters: Chapter[] = [
   “Where then?” asks Zot.
   Gerki gestures at the steep side of the pyramid, and the layers of tall, barely-climbable stones that gradually diminish in size as they rise toward the top. “Let’s try going up.”
   “Ugh,” says Fiona. “Are you sure? This is starting to seem like work.”
-  “It’s either that or we start digging,” says gerki. “And since that sounds even more like work...”
+  “It’s either that or we start digging,” says Gerki. “And since that sounds even more like work...”
   “Got it.” Fiona hoists herself up on top of the first layer of stone blocks. “Let’s give it a try.”
   “Even if we don’t find anything,” says deirdre, smiling, “I’m sure the view from up top will be beautiful.”
   “We’ll be able to see even more of the barren Wastes,” says Eve. “Hooray.”
@@ -1233,7 +1233,7 @@ export const chapters: Chapter[] = [
       full: `The statues have been destroyed and the scarab beetles have all— you hope—been squashed beneath your boots and weaponry. Moving carefully, under the assumption that it is distantly possible that you haven’t yet triggered all of the traps in this room, you and the group of novice adventurers gather together. Fiona gives the rather harrowed- looking novices a pep talk while Deirdre mends wounds and Gerki scrapes poison off of the initial volley of javelins into a metal flask.
   “That was a mess,” says Runa, hugging herself. “I was sure we were going to die here.”
   “Nah,” says Fiona. “Not a chance. You all did great. Really great. You hung together, fought like a team…”
-  “Yeah we did!” says Pherry, high-fiving fiona.
+  “Yeah we did!” says Pherry, high-fiving Fiona.
   “And you found all the traps,” says Gerki, looking slightly annoyed.
   Artin, his surly demeanor returning now that he’s no longer fighting for his life, leans up against one of the pedestals that formerly held a statue and crosses his arms. “Yeah, and I found something else, too. A couple of things, as a matter of fact.”
   “Oh?” asks Deirdre, mid-heal.
@@ -1387,7 +1387,7 @@ export const chapters: Chapter[] = [
   “NO!” shrieks Amundyr, wheeling to face the obelisk. “NO! NO!” her cries so startle Artin that he topples off the top of the obelisk, bobbling the Heart from hand to hand as he plummets to the floor. Pherry and Runa move quickly, rushing to catch their falling comrade and the obscenely important and valuable treasure before either can strike the chamber floor. Howling with rage, Amundyr fires waves of necrotic, purple-black energy from her fingertips. You are relieved, and, frankly, surprised, that Thamart manages to raise a force field strong enough to repel the elvish pharaoh’s magical fury.
   “Kill them, my children!” screams Amundyr.
   “Kill them all!” you push forward, eager to defend the young adventurers from Amundyr’s deadly wrath. The novices gather themselves together and hustle back the way they came, the Heart clutched protectively between them. As they flee back toward the surface, you muster what strength and energy you have left and face your foes. The flames in the fire pots suddenly change from a warm orange to a cold blue, matching a sudden change of temperature in the room. Amundyr herself begins glowing with a sparkling sapphire radiance. Her body regenerates before your eyes, centuries of undeath pouring like water off of her shoulders, until she appears as vital and powerful as she must have in life. As amundyr regenerates, you can feel some of your own strength fading. Amundyr grows taller as well, and her eyes burn brightly with apocalyptic rage. Though she seems far mightier and more terrifying than before, you note that subtle cracks have appeared in her otherwise fresh and healthy skin, and her joints creak under the increased burden of both her larger size and magical energy. This is small comfort to you, as Amundyr gestures in frustration at the obelisk and pulverizes it with a single word.
-  “NO MORE FUN AND GAMES, iNTERLOPERS!” she roars. “TIME TO DIE!” the three statues surrounding the now- destroyed obelisk step down from their pedestals, ready to fight alongside their pharoah.`,
+  “NO MORE FUN AND GAMES, INTERLOPERS!” she roars. “TIME TO DIE!” the three statues surrounding the now- destroyed obelisk step down from their pedestals, ready to fight alongside their pharoah.`,
       compact: `Amundyr’s transformation is a sight of terrifying beauty. The sapphire radiance illuminates every crack in the chamber walls as she sheds eons of decay to become a giantess of living, breathing magic. But as she grows, the sound of her "new" bones grinding against each other is like tectonic plates shifting.
   "TIME TO DIE!" she screams, her voice vibrating in your very marrow.
   The three guardian statues move with surprising speed, their stone fists whistling through the air. You are weakened, your stamina siphoned away to fuel her rebirth, but you have one advantage: the Heart is gone, and Amundyr’s new body is a vessel too small for the power she’s trying to hold.`,
@@ -1588,7 +1588,7 @@ export const chapters: Chapter[] = [
   “Oh, great, another monologue,” mutter pherry and Fiona at the same time.
   “Fools!” shouts Longmont. “You try and try to prevail, but it is already too late! For you see…”
   Your party tunes him out.
-  Eve continues to keep her hands visible as she stares at Pherry. “Come on, Pherry. You can’t seriously be allied with this dullard.” the knife moves fractionally closer to fiona’s throat.
+  Eve continues to keep her hands visible as she stares at Pherry. “Come on, Pherry. You can’t seriously be allied with this dullard.” the knife moves fractionally closer to Fiona’s throat.
   “Yeah, I seriously am,” says Pherry, in case the repositioning of the knife wasn’t enough. “There’s a lot of perks to being on the winning side.”
   “The winning side is demons,” says Gerki. “Those aren’t just bad odds. Those are the worst odds. They’re going to destroy the world and everything in it. They’re going to destroy you!” for a moment, Pherry looks uncertain. As she gathers herself, Longmont’s voice filters up from below.
   “And then I realized that what I wanted was power,” the former Vice-Chancellor drones. “True power! That the Collegium had long denied me…”
@@ -1596,12 +1596,12 @@ export const chapters: Chapter[] = [
   “No,” says Deirdre. “It’s the demons who will be on top.”
   “I really liked you, you know,” says Fiona quietly, her voice quavering. “You seemed nice, and sweet, and earnest, and you reminded me a lot of a younger me.”
   “Then this must really hurt you a lot,” says pherry.
-  “Not as much as I’m going to hurt you if you don’t get your head on straight,” replies fiona. “If the rest of the demons make it to this dimension, it’s over for us. You’re a good fighter. You’re clever. You’ve got guts. It’s not too late for you to turn this thing around. Help us stop longmont and get the Heart back. Help us save the world.”
+  “Not as much as I’m going to hurt you if you don’t get your head on straight,” replies Fiona. “If the rest of the demons make it to this dimension, it’s over for us. You’re a good fighter. You’re clever. You’ve got guts. It’s not too late for you to turn this thing around. Help us stop longmont and get the Heart back. Help us save the world.”
   A long silence follows. Well, it would be a long silence if not for Longmont. “And then you fools led my agents right to the Heart,” he says, cackling. “I hardly even needed to bother with the masquerade!”
   “If I don’t go along with this,” says Pherry, her voice tight, her words clipped, “then thamart will have died for nothing.”
   “What about Artin?” says demands Fiona. “You killed him, or don’t you remember? You nearly got Runa, too. Face it, you’re just trying to justify your murders.”
   At this, Pherry laughs. While she is distracted, Fiona takes a moment to subtly shift her position under Pherry’s loosened grip.
-  “I don’t have all day to split hairs on whether i murdered Thamart or you did. What I will say is that when I’m hired to do a job, I do that job. I don’t ask questions and I fulfill my obligations to the letter. If that means that anyone who gets in my way dies, they die. I figured if anyone would respect that, it’d be Fiona the Volatile! how many people have gotten in your way? how many living, breathing creatures have you killed? Honestly, we’re not so…”
+  “I don’t have all day to split hairs on whether I murdered Thamart or you did. What I will say is that when I’m hired to do a job, I do that job. I don’t ask questions and I fulfill my obligations to the letter. If that means that anyone who gets in my way dies, they die. I figured if anyone would respect that, it’d be Fiona the Volatile! How many people have gotten in your way? How many living, breathing creatures have you killed? Honestly, we’re not so…”
   Fiona brings her head back with a hard snap, catching Pherry full in the nose. There is a familiar crunching noise as your former adventuring companion stumbles backward, blood running from both nostrils.
   “Now who’s monologuing?” shouts Fiona. “And I’ve heard the ‘not so different’ speech before, traitor!”
   “Do you mind?” shouts Longmont from below. “I’m trying to detail how foolproof my cunning plan is.”
@@ -1621,7 +1621,7 @@ export const chapters: Chapter[] = [
   “Fi?” ventures Gerki. “You okay?”
   “No,” replies Fiona, as she stalks across the cavern in the direction that Longmont has fled. “We’ve got a job to do.”
   With that, she walks off into the darkness.
-  “Gog not let Fiona go alone,” says gog, jutting out his tusks in an expression of determination.
+  “Gog not let Fiona go alone,” says Gog, jutting out his tusks in an expression of determination.
   “We’re not going to let her go on alone either, big guy,” says Gerki. He looks in the direction that Fiona went, but there is nothing but darkness there now. “C’mon.”`,
       compact: `Fiona sheathes her sword with a sharp, metallic ring that echoes through the silence.
   "Fi? You okay?" Gerki asks cautiously.
@@ -1717,7 +1717,7 @@ export const chapters: Chapter[] = [
     },
     epilogue: {
       title: 'Epilogue',
-      full: `“NO!” shrieks the demon-thing that was once Longmont. It sags to the floor of the cavern, leaking pus and ichor from its many wounds. “NO! IT CANNOT BE! mY POWER! I WAS PROMISED!”
+      full: `“NO!” shrieks the demon-thing that was once Longmont. It sags to the floor of the cavern, leaking pus and ichor from its many wounds. “NO! IT CANNOT BE! MY POWER! I WAS PROMISED!”
   You race across the cavern toward the obsidian Door, and to the knot of surviving cultists standing in its shadow. They are the last things standing between you and the slightly open portal to the Stygian Expanse, and they know it. Glancing nervously at the deflating pool of flesh and fluid that was once their leader, they raise their hands in defensive postures.
   “We surrender!” one says. “Please! Let us live! We’ll do…”
   “It’s opening!” shouts Deirdre.
