@@ -2,6 +2,10 @@
 
 A web-based audio book reader for **Tales from the Red Dragon Inn**, featuring synchronized text and audio playback with customizable reading modes.
 
+## Live 
+
+- [https://red-dragon-inn-reader.netlify.app](https://red-dragon-inn-reader.netlify.app)
+
 ## Resources & Tools
 
 - [SlugFest Games — Tales from the Red Dragon Inn Resources](https://slugfestgames.com/tales-from-the-red-dragon-inn-resources/)
